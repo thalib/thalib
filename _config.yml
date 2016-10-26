@@ -10,7 +10,7 @@ title: thalib
 brief-intro: Engineer/Designer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thalib.github.io" # the base hostname & protocol for your site
-description_footer: Mohamed Thalib H
+description_footer: My personal notes,
 permalink: /:year/:month/:day/:title/
 
 # other links
@@ -19,7 +19,7 @@ linkedIn_username: mohamedthalib
 
 # comments
 # two ways to comment, only choose one, and use your own short name
-# 两种评论插件，选一个就好了，使用自己的 short_name
+# short_name
 duoshuo_shortname:
 disqus_shortname: 
 
