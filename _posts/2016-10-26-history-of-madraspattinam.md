@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Some Places in Tamil Nadu and thier meaning"
+title:  "Hidden History of Madras (Madarasapattinam)"
 date:   2016-10-26 15:34:09
 categories: History
-tags:  tamil place islam muslim
-excerpt: Just came to know come intersting facts about places names and thier connection with Islam and Muslims
+tags:  tamil place islam muslim chennai
+excerpt: Just came to know come intersting facts about, Chennai and some places names and thier connection with early Muslims
 ---
 
 * content
@@ -18,7 +18,7 @@ The city was called Madras,
 இந்த சரித்திர உண்மையை மறைக்க தான் சென்னை என மாற்றப்பட்டுள்ளது
 
 
-* Madraspatnam (மதராசப்பட்டினம்)
+* Madarasapattinam (மதராசப்பட்டினம்)
 * Madras (மதராஸ்)
 * Madras (மெட்ராஸ்)
 
