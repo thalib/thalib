@@ -10,11 +10,11 @@ excerpt: Notes on How to Extract and recreate Android boot.img
 Unlike system.img boot.img is not a filesystem image. 
 It is read by the bootloader, and contains a kernel image and a tiny ramdisk image.
 
-boot.img is created using **mkbootimg** tool, and unpacked using **unmkbootimg**, these tools are part of Android source, but you can download these tools from this git https://github.com/pbatard/bootimg-tools
+boot.img is created using **mkbootimg** tool, and unpacked using **unmkbootimg**, these tools are part of Android source, but you can download these tools from this git [https://github.com/pbatard/bootimg-tools](https://github.com/pbatard/bootimg-tools)
 
 Download the source and execute the make file to compile the tools 
 
-## Extracting/Unpacking boot.img:
+### Extracting/Unpacking boot.img:
 
 unmkbootimg command usage
 
@@ -31,6 +31,7 @@ usage: unmkbootimg
 If kernel/ramdisk arguments are not passed the extracted files are placed in current working directory
 
 Here is the example usage
+
 ```
 $ ../bootimg-tools-master/mkbootimg/unmkbootimg -i ../boot.img 
 kernel written to 'kernel' (1680996 bytes)
@@ -51,7 +52,7 @@ total 30M
 
 ```
 
-## Creating boot.img
+### Creating boot.img
 
 Creating is very simple, Use the the command printed by **unmkbootimg** to create the boot.img.
 
@@ -73,4 +74,8 @@ mkbootimg --base 0 --pagesize 2048 \
 -o ../boot.img
 ```
 
+### More
+
+* http://android-dls.com/wiki/index.php?title=HOWTO%3a_Unpack%2C_Edit%2C_and_Re-Pack_Boot_Images
+* http://www.imajeenyus.com/computer/20130301_android_tablet/android/unpack_repack_recovery_image.html
 
