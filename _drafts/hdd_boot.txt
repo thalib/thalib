@@ -1,0 +1,19 @@
+
+setenv bootargs 'root=/dev/sda3 rw console=ttyS0,115200 fsl_pme_8572_pages=10240'
+
+setenv hdboot 'setenv bootargs root=/dev/sda1 rw console=ttyS0,115200; ext2load scsi 0:1 0x1000000 /boot/uImage; ext2load scsi 0:1 0xc00000 /boot/mpc8572ds.dtb;bootm 0x1000000 - c00000'
+
+hdboot
+------------
+hdboot=ext2load scsi 0:1 0x1000000 /boot/uImage; ext2load scsi 0:1 0xc00000 /boot/mpc8572ds.dtb;bootm 0x1000000 - c00000
+
+
+hdrambot
+--------
+setenv hdramboot 'ext2load scsi 0:1 $ramdiskaddr /rootfs.ext2.gz.uboot; ext2load scsi 0:1 $fdtaddr /mpc8572ds.dtb; ext2load scsi 0:1 $loadaddr /uImage; bootm $loadaddr $ramdiskaddr $fdtaddr'
+
+set hdramargs 'setenv bootargs root=/dev/ram rw console=$consoledev,$baudrate $othbootargs'
+
+
+
+

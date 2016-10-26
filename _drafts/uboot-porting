@@ -1,0 +1,15 @@
+Modifying u-boot/Makefile and u-boot/MAKEALL Scripts
+Board Directory ./board
+u-boot/include/configs
+
+
+Files needed to be modified/created to port to a new board
+
+Makefile
+include/configs/<boardname>.h
+board/<boardname>/
+
+
+example:
+include/configs/MPC8540ADS.h
+

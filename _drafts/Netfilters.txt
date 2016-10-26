@@ -1,0 +1,52 @@
+--------------------------------------------------------------------------------
+A Packet Traversing the Netfilter System:
+
+   --->[1]--->[ROUTE]--->[3]--->[4]--->
+                 |            ^
+                 |            |
+                 |         [ROUTE]
+                 v            |
+                [2]          [5]
+                 |            ^
+                 |            |
+                 v            |
+
+[1] NF_IP_PRE_ROUTING hook.
+[2] NF_IP_LOCAL_IN hook
+[3] NF_IP_FORWARD hook.
+[4] NF_IP_POST_ROUTING hook
+[5] NF_IP_LOCAL_OUT hook
+
+--------------------------------------------------------------------------------
+
+The module can then tell netfilter to do one of five things:
+
+   1. NF_ACCEPT: continue traversal as normal.
+   2. NF_DROP: drop the packet; don't continue traversal.
+   3. NF_STOLEN: I've taken over the packet; don't continue traversal.
+   4. NF_QUEUE: queue the packet (usually for userspace handling).
+   5. NF_REPEAT: call this hook again.
+
+--------------------------------------------------------------------------------
+
+Hooks that are registered with netfilter are as follows 
+
+
+       --->PRE------>[ROUTE]--->FWD---------->POST------>
+           Conntrack    |       Mangle   ^    Mangle
+           Mangle       |       Filter   |    NAT (Src)
+           NAT (Dst)    |                |    Conntrack
+           (QDisc)      |             [ROUTE]
+                        v                |
+                        IN Filter       OUT Conntrack
+                        |  Conntrack     ^  Mangle
+                        |  Mangle        |  NAT (Dst)
+                        v                |  Filter
+
+
+
+
+References:
+===========
+http://www.netfilter.org/documentation/HOWTO/netfilter-hacking-HOWTO.html
+

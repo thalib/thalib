@@ -1,0 +1,8 @@
+http://mkeys.sourceforge.net/
+http://www.linuxjournal.com/article/6396
+http://www.linuxjournal.com/article/6429
+http://kerneltrap.org/node/2199
+beagleboard.googlecode.com/files/evtest.c
+http://groomlakelabs.com/code/microtouch/Linux-Input-USB-Touchscreen-HowTo.txt?q=grandamp/code/microtouch/Linux-Input-USB-Touchscreen-HowTo.txt
+http://www.moythreads.com/wordpress/2007/10/21/x-linux-kernel-input-subsystem-and-my-touchpad/
+http://www.t2-project.org/packages/7.0/input-utils.html

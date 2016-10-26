@@ -1,0 +1,35 @@
+Here I would like to explain nfsbooting using diffrent bootloader with linux
+
+We will look at how to do nfsboot using Uboot, Redboot, GRUB, Lilo and etherboot.
+
+#############################################################################
+Uboot:
+#############################################################################
+nfsboot=setenv bootargs root=/dev/nfs rw nfsroot=$serverip:$rootpath ip=$ipaddr:$serverip:$gatewayip:$netmask:$hostname:$netdev:off console=$consoledev,$baudrate $othbootargs;tftp $loadaddr $bootfile;tftp $fdtaddr $fdtfile;bootm $loadaddr - $fdtaddr
+
+run nfsboot
+#############################################################################
+GRUB:
+#############################################################################
+create a entry in the grub menulist file as below.
+
+title		Ubuntu 9.04, kernel 2.6.28-13-generic
+root		(hd0, 0)
+kernel		/boot/vmlinuz-2.6.28-13-generic <kernel parameters> 
+initrd		/boot/initrd.img-2.6.28-13-generic
+quiet
+
+
+Kernel parameters are below
+----------------------------
+root=/dev/nfs rw nfsroot=<serverip>:<rootpath> ip=<ipaddr>:<serverip>:<gatewayip>:<netmask>:<hostname>:<netdev>:off
+
+root=/dev/nfs rw nfsroot=172.29.38.95:/data/nfs ip=172.29.38.230:172.29.38.95:172.29.38.1:255.255.255.0:SilenStorm:eth0:off
+
+Now the grubs menulist entry will become as follows
+
+title		Ubuntu 9.04, kernel 2.6.28-13-generic - NFS boot
+root		(hd0, 0)
+kernel		/boot/vmlinuz-2.6.28-13-generic root=/dev/nfs rw nfsroot=172.29.38.95:/data/nfs ip=172.29.38.230:172.29.38.95:172.29.38.1:255.255.255.0:SilenStorm:eth0:off
+initrd		/boot/initrd.img-2.6.28-13-generic
+quiet

@@ -1,0 +1,10 @@
+
+In the beginning, the parallel port on a PC was used only as an output port for a printer. However, several companies started to use is as a port to connect other devices, such as scanners or external storage devices. In such devices, you need to use the port also for input, to send data from the device to the computer. The original printer ports had only 8-bit output capability. However, there were two methods to implement the input capability to the port originally designed for output only.
+
+The use of the control signal lines There are several lines used to carry the control signals from the printer to the computer, such as Error, Select, Paper Empty or Busy. You can use these lines to transfer 4-bit pieces of data. A byte (8 bits) of data is transferred in two "nibbles" (4 bits), from the external device to the computer. This is also referred to as Nibble mode.
+
+The introduction of an I/O controller with the bi-directional 8-bit data port. This was a hardware change. This mode is referred to as Byte mode or Bi-directional mode. Bi-directional (byte) mode is faster than nibble mode. However there were needs for faster transfer and two other methods were created.
+
+The EPP (Enhanced Parallel Port) was developed by Intel, Xircom, Zenith Data System. It lets the I/O controller take care of the handshake between the computer and the peripheral and thus frees the CPU from having to check the I/O port status every time it sends or receives a piece of data. This speeds up data transfer.
+
+ECP (Extended Capacity Port) was developed by Hewlett-Packard and Microsoft. It introduced the data compression, FIFO buffer and other sophisticated features to the parallel data transfer. All the features above were defined in the IEEE standard 1284-1994 "Standard Signaling Method for a Bi-directional Parallel Peripheral Interface for Personal Computers" You can find a very good introduction to this standard at: http://www.fapo .com/ieee1284.htm 

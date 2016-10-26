@@ -1,0 +1,19 @@
+Linux L2 Bridigning
+=====================
+
+	1. Spanning Tree Protocol
+
+References:
+http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge
+http://en.wikipedia.org/wiki/Spanning_tree_protocol
+http://www.cisco.com/univercd/cc/td/doc/product/rtrmgmt/sw_ntman/cwsimain/cwsi2/cwsiug2/vlan2/stpapp.htm
+http://ebtables.sourceforge.net/
+
+
+Netfilters
+======================
+
+Reference:
+http://netfilter.org/documentation/HOWTO/netfilter-hacking-HOWTO-1.html
+http://www.netfilter.org/documentation/HOWTO/netfilter-hacking-HOWTO-3.html
+

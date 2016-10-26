@@ -1,0 +1,47 @@
+http://seclists.org/focus-ids/2006/Mar/0015.html
+http://forums.remote-exploit.org/tutorials-guides/2858-howto-use-dsniff-driftnet-urlsnarf-msgsnarf-802-11-capture-files.html
+
+
+dsniff
+tcpreplay
+tcpdump
+Ettercap
+Airdecap
+http://www.aimsniff.com/
+http://www.aircrack-ng.org/doku.php
+Kismet http://www.kismetwireless.net/
+http://forums.remote-exploit.org/
+sslstrip
+arpspoof
+ettercap
+NetworkMiner
+Arpspoof
+Cain
+Ngrep
+TCPDum
+Etherealp
+libpcap, the Packet Capture library;
+arpwatch, the ethernet monitor program; for keeping track of ethernet/ip address pairings,
+traceroute for printing the route packets take to a network host, and
+pathchar for inferring the characteristics of Internet paths. 
+bpf, the Berkeley Packet Filter
+cslip, the compressed serial line IP package
+
+
+http://seclists.org/
+http://www.linewbie.com/2007/11/how-to-sniff-or-hack-someones-username-and-password-even-if-it-is-over-an-ssl-encrypted-connection.html
+www.hacktoolrepository.com
+
+http://forums.remote-exploit.org/backtrack-4-howto/24426-video-tutorial-how-crack-snifff-ssl-https-sslstrip.html
+
+http://www.youtube.com/watch?v=HlBDG1Yvmpw&feature=channel
+http://forums.remote-exploit.org/tutorials-guides/2858-howto-use-dsniff-driftnet-urlsnarf-msgsnarf-802-11-capture-files.html
+http://forums.remote-exploit.org/tutorials-guides/
+http://www.b3an.com/Support/index.php?title=Ethereal_Picture_Stripping
+http://michaeldundas.com/2008/12/24/extracting-picture-files-from-network-streams/
+
+http://www.irongeek.com/i.php?page=security/arpspoof
+http://www.hak5.org/
+http://wildpackets-ethereal-decode-enabler.software.informer.com/
+http://www.irongeek.com/i.php?page=security/AQuickIntrotoSniffers
+

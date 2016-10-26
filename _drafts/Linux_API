@@ -1,0 +1,14 @@
+
+void __iomem *im;
+im = ioremap(get_immrbase(), 0x1000);
+
+if (!im) {
+             WARN_ON(1);
+             return;
+}
+
+iounmap(im);
+
+
+clrsetbits_be32(im + MPC83XX_SICRL_OFFS, MPC837X_SICRL_USBB_MASK,MPC837X_SICRL_SD);
+

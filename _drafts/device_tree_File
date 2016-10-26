@@ -1,0 +1,1 @@
+ dtc -f -b 0 -I dts -O dtb -p 1024 -o /home/thalib/project/P4080/bsp/ltib/tmp/kernel//opt/freescale/rootfs/ppc/boot/p4080ds.dtb arch/powerpc/boot/dts/p4080ds.dts

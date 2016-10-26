@@ -1,0 +1,261 @@
+string.h
+=========
+
+void    *memccpy(void *, const void *, int, size_t);
+void    *memchr(const void *, int, size_t);
+int      memcmp(const void *, const void *, size_t);
+void    *memcpy(void *, const void *, size_t);
+void    *memmove(void *, const void *, size_t);
+void    *memset(void *, int, size_t);
+char    *strcat(char *, const char *);
+char    *strchr(const char *, int);
+int      strcmp(const char *, const char *);
+int      strcoll(const char *, const char *);
+char    *strcpy(char *, const char *);
+size_t   strcspn(const char *, const char *);
+char    *strdup(const char *);
+char    *strerror(int);
+size_t   strlen(const char *);
+char    *strncat(char *, const char *, size_t);
+int      strncmp(const char *, const char *, size_t);
+char    *strncpy(char *, const char *, size_t);
+char    *strpbrk(const char *, const char *);
+char    *strrchr(const char *, int);
+size_t   strspn(const char *, const char *);
+char    *strstr(const char *, const char *);
+char    *strtok(char *, const char *);
+char    *strtok_r(char *, const char *, char **);
+size_t   strxfrm(char *, const char *, size_t);
+
+
+fcntl
+======
+int  creat(const char *, mode_t);
+int  fcntl(int, int, ...);
+int  open(const char *, int, ...);
+[ADV][Option Start]
+int  posix_fadvise(int, off_t, off_t, int);
+int  posix_fallocate(int, off_t, off_t);
+
+
+unistd.h
+========
+int          access(const char *, int);
+unsigned     alarm(unsigned);
+int          chdir(const char *);
+int          chown(const char *, uid_t, gid_t);
+int          close(int);
+size_t       confstr(int, char *, size_t);
+
+
+[XSI][Option Start]
+char        *crypt(const char *, const char *);
+char        *ctermid(char *);
+[Option End]
+int          dup(int);
+
+
+int          dup2(int, int);
+[XSI][Option Start]
+void         encrypt(char[64], int);
+[Option End]
+int          execl(const char *, const char *, ...);
+int          execle(const char *, const char *, ...);
+int          execlp(const char *, const char *, ...);
+int          execv(const char *, char *const []);
+int          execve(const char *, char *const [], char *const []);
+int          execvp(const char *, char *const []);
+void        _exit(int);
+int          fchown(int, uid_t, gid_t);
+[XSI][Option Start]
+int          fchdir(int);
+[Option End]
+[SIO][Option Start]
+int          fdatasync(int);
+[Option End]
+pid_t        fork(void);
+long         fpathconf(int, int);
+[FSC][Option Start]
+int          fsync(int);
+[Option End]
+int          ftruncate(int, off_t);
+char        *getcwd(char *, size_t);
+gid_t        getegid(void);
+uid_t        geteuid(void);
+gid_t        getgid(void);
+int          getgroups(int, gid_t []);
+[XSI][Option Start]
+long         gethostid(void);
+[Option End]
+int          gethostname(char *, size_t);
+char        *getlogin(void);
+int          getlogin_r(char *, size_t);
+int          getopt(int, char * const [], const char *);
+[XSI][Option Start]
+pid_t        getpgid(pid_t);
+[Option End]
+pid_t        getpgrp(void);
+pid_t        getpid(void);
+pid_t        getppid(void);
+[XSI][Option Start]
+pid_t        getsid(pid_t);
+[Option End]
+uid_t        getuid(void);
+[XSI][Option Start]
+char        *getwd(char *); (LEGACY )
+[Option End]
+int          isatty(int);
+[XSI][Option Start]
+int          lchown(const char *, uid_t, gid_t);
+[Option End]
+int          link(const char *, const char *);
+[XSI][Option Start]
+int          lockf(int, int, off_t);
+[Option End]
+off_t        lseek(int, off_t, int);
+[XSI][Option Start]
+int          nice(int);
+[Option End]
+long         pathconf(const char *, int);
+int          pause(void);
+int          pipe(int [2]);
+[XSI][Option Start]
+ssize_t      pread(int, void *, size_t, off_t);
+ssize_t      pwrite(int, const void *, size_t, off_t);
+[Option End]
+ssize_t      read(int, void *, size_t);
+ssize_t      readlink(const char *restrict, char *restrict, size_t);
+int          rmdir(const char *);
+int          setegid(gid_t);
+int          seteuid(uid_t);
+int          setgid(gid_t);
+
+
+int          setpgid(pid_t, pid_t);
+[XSI][Option Start]
+pid_t        setpgrp(void);
+int          setregid(gid_t, gid_t);
+int          setreuid(uid_t, uid_t);
+[Option End]
+pid_t        setsid(void);
+int          setuid(uid_t);
+unsigned     sleep(unsigned);
+[XSI][Option Start]
+void         swab(const void *restrict, void *restrict, ssize_t);
+[Option End]
+int          symlink(const char *, const char *);
+[XSI][Option Start]
+void         sync(void);
+[Option End]
+long         sysconf(int);
+pid_t        tcgetpgrp(int);
+int          tcsetpgrp(int, pid_t);
+[XSI][Option Start]
+int          truncate(const char *, off_t);
+[Option End]
+char        *ttyname(int);
+int          ttyname_r(int, char *, size_t);
+[XSI][Option Start]
+useconds_t   ualarm(useconds_t, useconds_t);
+[Option End]
+int          unlink(const char *);
+[XSI][Option Start]
+int          usleep(useconds_t);
+pid_t        vfork(void);
+[Option End]
+ssize_t      write(int, const void *, size_t);
+
+
+Stdio.h
+========
+
+void     clearerr(FILE *);
+[CX][Option Start]
+char    *ctermid(char *);
+[Option End]
+int      fclose(FILE *);
+[CX][Option Start]
+FILE    *fdopen(int, const char *);
+[Option End]
+int      feof(FILE *);
+int      ferror(FILE *);
+int      fflush(FILE *);
+int      fgetc(FILE *);
+int      fgetpos(FILE *restrict, fpos_t *restrict);
+char    *fgets(char *restrict, int, FILE *restrict);
+[CX][Option Start]
+int      fileno(FILE *);
+[Option End]
+[TSF][Option Start]
+void     flockfile(FILE *);
+[Option End]
+FILE    *fopen(const char *restrict, const char *restrict);
+int      fprintf(FILE *restrict, const char *restrict, ...);
+int      fputc(int, FILE *);
+int      fputs(const char *restrict, FILE *restrict);
+size_t   fread(void *restrict, size_t, size_t, FILE *restrict);
+FILE    *freopen(const char *restrict, const char *restrict,
+             FILE *restrict);
+int      fscanf(FILE *restrict, const char *restrict, ...);
+int      fseek(FILE *, long, int);
+[CX][Option Start]
+int      fseeko(FILE *, off_t, int);
+[Option End]
+int      fsetpos(FILE *, const fpos_t *);
+long     ftell(FILE *);
+[CX][Option Start]
+off_t    ftello(FILE *);
+[Option End]
+[TSF][Option Start]
+int      ftrylockfile(FILE *);
+void     funlockfile(FILE *);
+[Option End]
+size_t   fwrite(const void *restrict, size_t, size_t, FILE *restrict);
+int      getc(FILE *);
+int      getchar(void);
+[TSF][Option Start]
+int      getc_unlocked(FILE *);
+int      getchar_unlocked(void);
+[Option End]
+char    *gets(char *);
+[CX][Option Start]
+int      pclose(FILE *);
+[Option End]
+void     perror(const char *);
+[CX][Option Start]
+FILE    *popen(const char *, const char *);
+[Option End]
+int      printf(const char *restrict, ...);
+int      putc(int, FILE *);
+int      putchar(int);
+[TSF][Option Start]
+int      putc_unlocked(int, FILE *);
+int      putchar_unlocked(int);
+[Option End]
+int      puts(const char *);
+int      remove(const char *);
+int      rename(const char *, const char *);
+void     rewind(FILE *);
+int      scanf(const char *restrict, ...);
+void     setbuf(FILE *restrict, char *restrict);
+int      setvbuf(FILE *restrict, char *restrict, int, size_t);
+int      snprintf(char *restrict, size_t, const char *restrict, ...);
+int      sprintf(char *restrict, const char *restrict, ...);
+int      sscanf(const char *restrict, const char *restrict, int ...);
+[XSI][Option Start]
+char    *tempnam(const char *, const char *);
+[Option End]
+FILE    *tmpfile(void);
+char    *tmpnam(char *);
+int      ungetc(int, FILE *);
+int      vfprintf(FILE *restrict, const char *restrict, va_list);
+int      vfscanf(FILE *restrict, const char *restrict, va_list);
+int      vprintf(const char *restrict, va_list);
+int      vscanf(const char *restrict, va_list);
+int      vsnprintf(char *restrict, size_t, const char *restrict,
+             va_list);
+int      vsprintf(char *restrict, const char *restrict, va_list);
+int      vsscanf(const char *restrict, const char *restrict,
+             va_list arg);
+
+

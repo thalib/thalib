@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Hidden History of Madras (Madarasapattinam)"
+title:  "Some Places in Tamil Nadu and thier meaning"
 date:   2016-10-26 15:34:09
 categories: History
 tags:  tamil place islam muslim
-excerpt: Just came to know come intersting facts about places names and thier connection with Muslims
+excerpt: Just came to know come intersting facts about places names and thier connection with Islam and Muslims
 ---
 
 * content

@@ -1,0 +1,17 @@
+
+
+Here I will explain how we will be backup and restore the boot sector of a running pc.
+
+In  this exampe I will consider my hardisk is /dev/hda.
+
+backing up existing bootsector in /dev/hda hardrive
+
+dd if=/dev/hda of=bootsec.bin bs=512 count=1
+
+
+Now to restore the bootsectore to the hardisk use the following commad.
+
+dd if=bootsec.bin of=/dev/hda bs=512 count=1
+
+
+

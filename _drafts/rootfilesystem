@@ -1,0 +1,50 @@
+mkdir dev mnt  proc tmp  var etc
+
+mknod dev/mem c 1 1
+mknod dev/null c 1 3
+mknod dev/zero c 1 5
+mknod dev/ram0 b 1 0
+mknod dev/tty c 4 0
+mknod dev/tty1 c 4 1
+mknod dev/ttyS0 c 4 64
+mknod dev/console c 5 1
+
+etc/fstab
+-----------
+proc  /proc      proc    defaults     0      0
+none  /var/shm   shm     defaults     0      0
+
+
+etc/inittab
+-----------
+
+::respawn:/sbin/getty -L ttyS0 115200 vt100
+:12345:wait:mount -a
+::ctrlaltdel:/sbin/reboot
+::shutdown:/etc/rc.d/rcS stop
+::restart:/sbin/init
+
+
+etc/init.d/rcS 
+---------------
+#! /bin/sh
+mount -a # Mount the default file systems mentioned in /etc/fstab.
+
+
+use ramdisk generation script 
+
+
+
+router_configration
+=====================
+
+cat /proc/sys/net/ipv4/ip_forward
+echo 1 >/proc/sys/net/ipv4/ip_forward
+
+ifconfig lo 127.0.0.1 netmask 255.0.0.0 
+ifconfig eth0 10.1.1.1 netmask 255.255.255.0 up
+ifconfig eth1 10.1.2.1 netmask 255.255.255.0 up
+
+arp -s 10.1.1.3 11:22:33:44:55:66
+arp -s 10.1.2.3 11:22:33:44:55:62
+

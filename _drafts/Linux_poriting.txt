@@ -1,0 +1,3 @@
+Reference:
+
+http://www.linux-mips.org/wiki/Linux/MIPS_Porting_Guide
