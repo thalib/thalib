@@ -3,43 +3,43 @@ layout: post
 title:  "Some Places in Tamil Nadu and thier meaning"
 date:   2016-10-26 15:34:09
 categories: History
-tags:  tamil, place, islam, muslim
+tags:  tamil place islam muslim
 excerpt: Just came to know come intersting facts about places names and thier connection with Islam and Muslims
 ---
 
 * content
 {:toc}
 
+![](https://upload.wikimedia.org/wikipedia/commons/4/4f/Fort_St._George%2C_Chennai.jpg)
 
+The city was called Madras, 
 முஸ்லிம்களால் உருவான பெயர் தான் "மதராஸ்" மருவி மெட்ராஸ் என மாறி உள்ளது
 
 இந்த சரித்திர உண்மையை மறைக்க தான் சென்னை என மாற்றப்பட்டுள்ளது
 
 
-மதராஸ் முஸ்லிம்கள்..
+* Madraspatnam (மதராசப்பட்டினம்)
+* Madras (மதராஸ்)
+* Madras (மெட்ராஸ்)
 
-மதராசப்பட்டினம்
-மதராஸ்
-மெட்ராஸ்
-சென்னை
+Now recently named as Chennai (சென்னை)
+
+மதராஸ் முஸ்லிம்கள்..
 
 அரபு வணிகர்களுக்கும் இந்தியாவுக்கும் உள்ள உறவு என்பது மனித நாகரிகம் தோன்றிய காலத்தில் இருந்தே வந்துள்ளது.
 
 குறிப்பாக தென் இந்தியாவில் உள்ள
 
-கேரளா
+Places in Kerala (கேரளா) and Tamil Nadu (தமிழகத்தில்)
 
-தமிழகத்தில் உள்ள
-
-குமரி மாவட்டம்
-தேங்காய்ப்பட்டணம்
-தொண்டி
-கீழக்கரை
-பரங்கிப்பேட்டை
-காயல்(ப்பட்டினம்)
-அதிரை(ப்பட்டினம்)
-மற்றும்
-மண்ணடி(ப்பட்டினம்)
+* Kaniya Kumari (குமரி மாவட்டம்)
+* Thengaipattinam(தேங்காய்ப்பட்டணம்)
+* Thondi (தொண்டி)
+* Kizhakarai (கீழக்கரை)
+* Parangipettai (பரங்கிப்பேட்டை)
+* Kayalpattinam (காயல்(ப்பட்டினம்))
+* Adhirampattinam (அதிரை(ப்பட்டினம்))
+* Mannady (மண்ணடி(ப்பட்டினம்))
 
 ஆகிய நகரங்களில் வணிகம் செய்துவந்துள்ளனர்.
 
@@ -97,3 +97,7 @@ excerpt: Just came to know come intersting facts about places names and thier co
 
 வேர்களை தேடிய பயணத்தில்...
 
+## Refrence
+
+* https://en.wikipedia.org/wiki/History_of_Chennai
+* https://en.wikipedia.org/wiki/Timeline_of_Chennai_history

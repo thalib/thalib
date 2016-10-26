@@ -1,3 +1,1 @@
-#!/bin/bash 
-
-rm -f `find | grep ~`
+rm `find . | grep '~'`
