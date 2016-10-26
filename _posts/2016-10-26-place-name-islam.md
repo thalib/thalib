@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First note"
+title:  "Some Places in Tamil Nadu and thier meaning"
 date:   2016-10-26 15:34:09
 categories: History
 tags:  tamil, place, islam, muslim

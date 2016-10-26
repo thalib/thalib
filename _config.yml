@@ -10,7 +10,7 @@ title: thalib
 brief-intro: Engineer/Designer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thalib.github.io" # the base hostname & protocol for your site
-description_footer: My personal notes,
+description_footer: A personal notes by Mohamed Thalib H,
 permalink: /:year/:month/:day/:title/
 
 # other links
