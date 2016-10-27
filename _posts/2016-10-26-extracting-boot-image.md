@@ -74,8 +74,8 @@ mkbootimg --base 0 --pagesize 2048 \
 -o ../boot.img
 ```
 
-### More
+### Refrence
 
-* http://android-dls.com/wiki/index.php?title=HOWTO%3a_Unpack%2C_Edit%2C_and_Re-Pack_Boot_Images
-* http://www.imajeenyus.com/computer/20130301_android_tablet/android/unpack_repack_recovery_image.html
+* [http://android-dls.com/wiki](http://android-dls.com/wiki/index.php?title=HOWTO%3a_Unpack%2C_Edit%2C_and_Re-Pack_Boot_Images)
+* [imajeenyus.com](http://www.imajeenyus.com/computer/20130301_android_tablet/android/unpack_repack_recovery_image.html)
 
