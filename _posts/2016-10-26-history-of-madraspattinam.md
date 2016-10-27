@@ -18,11 +18,11 @@ Most of us should know the city that we know as Chennai, was once called as Madr
 * Madarasapattinam (மதராசப்பட்டினம்)
 * Chennai (சென்னை)
 
-But many should not know that it was initially called as **Madrasa (மதராஸா) **
+But many should not know that it was initially called as **Madrasa (மதராஸா)**
 
-[Madrasa](https://en.wikipedia.org/wiki/Madrasa) (مدرسة‎‎) is the Arabic word for educational institution. Muslims use word Madrasa to refer the religious school, even today the word usually refers to religious school or college for the study of the Islamic religion.
+[Madrasa](https://en.wikipedia.org/wiki/Madrasa) **(مدرسة‎‎)** is the Arabic word for educational institution. Muslims use word Madrasa to refer the religious school, even today the word usually refers to religious school or college for the study of the Islamic religion.
 
-Madras and its surrounding region had many Islamic schools and colleges. Hence the students from various places came here to study Islam. So peoples started referring this region itself as **Madrasa**. Over time the word **Madrasa (மதராஸா) ** became **Madras (மதராஸ்)**. 
+Madras and its surrounding region had many Islamic schools and colleges. Hence the students from various places came here to study Islam. So peoples started referring this region itself as **Madrasa**. Over time the word **Madrasa (மதராஸா)  became Madras (மதராஸ்)**. 
 
 Still Chennai and its surrounding has many Islamic schools and colleges, many of these schools are established very long back, students come to study here from all over the country. 
 
@@ -32,11 +32,15 @@ After the arrival of the Europeans, they pronounced the word Madras மதரா
 
 Thus the word Madras (மதராஸ் and மெட்ராஸ்) originated from Madrasa (மதராஸா) . In 1996 the name Madras was changed to Chennai (சென்னை)
 
-But most online resouces like wikipedia articles on [Chennai](https://en.wikipedia.org/wiki/Chennai), [History_of_Chennai](https://en.wikipedia.org/wiki/History_of_Chennai), [Timeline_of_Chennai_history](https://en.wikipedia.org/wiki/Timeline_of_Chennai_history) hides this infromation, 
+But most online resouces like wikipedia articles on [Chennai](https://en.wikipedia.org/wiki/Chennai), [History of Chennai](https://en.wikipedia.org/wiki/History_of_Chennai), [Timeline of Chennai](https://en.wikipedia.org/wiki/Timeline_of_Chennai_history) hides this infromation, 
 
-You may have question "Why do **Madrasa (மதராஸா) ** are build here?" well, the reason is 
+### Origin of Muslim in Madras
 
-அரபு வணிகர்களுக்கும் இந்தியாவுக்கும் உள்ள உறவு என்பது மனித நாகரிகம் தோன்றிய காலத்தில் இருந்தே வந்துள்ளது. ஆகிய நகரங்களில் வணிகம் செய்துவந்துள்ளனர். வணிகர்களாய் வருகை தந்து இங்கே வாழ்ந்த அரபுகள் நபிகள் நாயகம் (ஸல்) கால துவக்கத்தில் முஸ்லிம்களாய் மாறி வணிகத்திற்கு வருகிறார்கள். இன்று சென்னையில் உள்ள மண்ணடி(பட்டினத்தில்) அதிகமாக வசித்தனர். அவர்களை அக்கால மக்கள் "மூர்கள்" என அழைத்தனர். அதன் அடிப்படையில் இன்றும் மண்ணடியில் "மூர் தெரு: உள்ளது. 
+You may have question "Why do **Madrasa (மதராஸா)** are build here?" well, the reason is 
+
+அரபு வணிகர்களுக்கும் இந்தியாவுக்கும் உள்ள உறவு என்பது மனித நாகரிகம் தோன்றிய காலத்தில் இருந்தே வந்துள்ளது. ஆகிய நகரங்களில் வணிகம் செய்துவந்துள்ளனர். 
+
+வணிகர்களாய் வருகை தந்து இங்கே வாழ்ந்த அரபுகள் நபிகள் நாயகம் (ஸல்) கால துவக்கத்தில் முஸ்லிம்களாய் மாறி வணிகத்திற்கு வருகிறார்கள். இன்று சென்னையில் உள்ள மண்ணடி(பட்டினத்தில்) அதிகமாக வசித்தனர். அவர்களை அக்கால மக்கள் **"மூர்கள்"** என அழைத்தனர். அதன் அடிப்படையில் இன்றும் மண்ணடியில் **மூர் தெரு** உள்ளது. 
 
 ஆற்காடு இளவரசர் "நவாப் முகம்மது அப்துல் அலி" அவர்கள் கூறுகிறார்
 
