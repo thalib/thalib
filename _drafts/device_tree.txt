@@ -1,6 +1,0 @@
-Reference :
-	  - ePAPR
-	  - linux source code (arch/powerpc/boot/dts/*)
-	  - www.power.org
-	  - www.freescale.com
-	  - 

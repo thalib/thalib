@@ -1,17 +1,21 @@
+---
+layout: post
+title:  "Simple script create a uboot compatible ramdisk file"
+date:   2016-10-29 12:16:00
+categories: Embedded
+tags: linux embedded script ramdisk
+excerpt: A simple script create a uboot compatible ramdisk file
+---
 
-Initramfs
-===============================
-http://lwn.net/Articles/14776/
+A simple script create a uboot compatible ramdisk file
 
-
-Use the following script to generate ramdiskfile for uboot
+```
 #!/bin/sh
 
 ##############################################################
 # This is a utility used to create ramdisk Image for uboot   #
 # 							     #
-# Author : Mohamed Thalib .H <h.mohamedthalib@gdatech.co.in> #
-# Company: GDA Technologies LTD.,			     #
+# Author : Mohamed Thalib .H  #
 # Date   : Thursday, June 25 2009			     #
 ##############################################################
 
@@ -54,7 +58,7 @@ do
      esac
 done
 
-if [ -z $SRC_DIR ] 
+if [ -z $SRC_DIR ]
 then
     usage
     exit 1
@@ -71,10 +75,10 @@ fi
 
 fs_size=`du -slk $SRC_DIR | awk -F" " {'print $1'}`
 
-if [ $fs_size -ge 20000 ] 
+if [ $fs_size -ge 20000 ]
 then
     blocks=$((fs_size+16384))
-else 
+else
     blocks=$((fs_size+2400))
 fi
 
@@ -95,9 +99,9 @@ then
     echo "genext2fs failed - Try running as root user"
     exit 1
 fi
-    
+
 echo ".......done"
-echo 
+echo
 echo -n "Generating rootfs.ext2.gz"
 
 gzip rootfs.ext2
@@ -125,4 +129,4 @@ echo
 echo "Image generation succeded"
 echo
 echo
-
+```

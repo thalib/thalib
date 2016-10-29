@@ -7,12 +7,12 @@ tags: android linux embedded reverse
 excerpt: Notes on How to Extract and recreate Android boot.img
 ---
 
-Unlike system.img boot.img is not a filesystem image. 
+Unlike system.img boot.img is not a filesystem image.
 It is read by the bootloader, and contains a kernel image and a tiny ramdisk image.
 
 boot.img is created using **mkbootimg** tool, and unpacked using **unmkbootimg**, these tools are part of Android source, but you can download these tools from this git [https://github.com/pbatard/bootimg-tools](https://github.com/pbatard/bootimg-tools)
 
-Download the source and execute the make file to compile the tools 
+Download the source and execute the make file to compile the tools
 
 ### Extracting/Unpacking boot.img:
 
@@ -33,7 +33,7 @@ If kernel/ramdisk arguments are not passed the extracted files are placed in cur
 Here is the example usage
 
 ```
-$ ../bootimg-tools-master/mkbootimg/unmkbootimg -i ../boot.img 
+$ ../bootimg-tools-master/mkbootimg/unmkbootimg -i ../boot.img
 kernel written to 'kernel' (1680996 bytes)
 ramdisk written to 'ramdisk.cpio.gz' (29345113 bytes)
 
@@ -78,4 +78,3 @@ mkbootimg --base 0 --pagesize 2048 \
 
 * [http://android-dls.com/wiki](http://android-dls.com/wiki/index.php?title=HOWTO%3a_Unpack%2C_Edit%2C_and_Re-Pack_Boot_Images)
 * [imajeenyus.com](http://www.imajeenyus.com/computer/20130301_android_tablet/android/unpack_repack_recovery_image.html)
-

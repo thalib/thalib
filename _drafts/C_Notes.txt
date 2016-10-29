@@ -1,5 +1,0 @@
-
-
- - The standard headers <limits.h> and <float.h> contain symbolic constants for all of data sizes
- 
-
