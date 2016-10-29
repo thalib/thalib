@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building GCC toolchain for PowerPCb"
+title:  "Building GCC toolchain for PowerPC"
 date:   2016-10-29 12:16:00
 categories: Embedded
 tags: linux embedded gcc toolchain
