@@ -58,4 +58,5 @@ convert -size 640x480 xc:White \
 
 ### Refernce
 
-* [imagemagick.org](http://www.imagemagick.org/Usage/canvas/#solid)
+* [imagemagick.org](http://www.imagemagick.org/Usage/canvas/)
+* [instructables.com](http://www.instructables.com/id/Add-text-to-images-with-Linux-convert-command/step2/Adding-a-caption/)
