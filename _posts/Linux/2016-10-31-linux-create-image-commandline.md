@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "How To create a image from commandline in Linux"
@@ -20,6 +19,7 @@ To create a 32x32 image with a transparent background:
 ```
 convert -size 32x32 xc:transparent empty.jpg
 ```
+
 ### Add Text to image
 
 ```
@@ -43,7 +43,7 @@ convert -size 640x480 xc:white -pointsize 20 -fill black -draw 'text 200,460 "He
 * **xc:white** or **-background white** can be used to tell the image background color
 
 
-Alternate method to create a dummy image 
+Alternate method to create a dummy image
 
 ```
 convert -size 640x480 xc:White \
