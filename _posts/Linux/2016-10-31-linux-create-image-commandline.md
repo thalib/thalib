@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "How To create a image from commandline in Linux"
+title:  "How To create a image from Linux commandline"
 date:   2016-10-31 12:45:32
+categories: Embedded
 tags: linux commandline
 ---
 
