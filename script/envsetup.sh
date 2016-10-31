@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POST_PATH=/home/mohamed/project/diy/thalib.io/thalib.github.io/_posts
+POST_PATH=/home/mohamed/project/vagrant/thalib.github.io/_posts
 POST_DATE=`date +%Y-%m-%d`
 POST_TIME=`date +%H:%M:%S`
 POST_TITLE="
@@ -9,7 +9,7 @@ layout: post
 title:  \"Wonderfull article (CHANGE ME)\"
 date:   $POST_DATE $POST_TIME
 categories: General
-tags: 
+tags:
 excerpt: This post is all about XYZ (CHANGE ME)
 ---
 
