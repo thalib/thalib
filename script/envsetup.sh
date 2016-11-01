@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POST_PATH=/home/mohamed/project/vagrant/thalib.github.io/_posts
+POST_PATH=/home/mohamed/project/vagrant/thalib.github.io/_drafts
 POST_DATE=`date +%Y-%m-%d`
 POST_TIME=`date +%H:%M:%S`
 POST_TITLE="---
