@@ -2,12 +2,13 @@
 layout: post
 title:  "Simple script create a uboot compatible ramdisk file"
 date:   2016-10-29 12:16:00
-categories: Embedded
+categories: Linux
 tags: linux embedded script ramdisk
 excerpt: A simple script create a uboot compatible ramdisk file
 ---
 
 A simple script create a uboot compatible ramdisk file
+
 
 ```
 #!/bin/sh

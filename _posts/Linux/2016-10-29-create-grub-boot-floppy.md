@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Creating a GRUB boot floppy"
 date:   2016-10-29 12:16:00
-categories: Embedded
+categories: Linux
 tags: linux embedded floppy
 excerpt: GRUB boot floppy creating instruction
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Extract Android boot.img"
 date:   2016-10-27 19:31:50
-categories: Embedded
+categories: Linux
 tags: android linux embedded reverse
 excerpt: Notes on How to Extract and recreate Android boot.img
 ---

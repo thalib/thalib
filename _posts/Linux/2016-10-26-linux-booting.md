@@ -2,7 +2,7 @@
 layout: post
 title:  "Programming Linux from Uboot"
 date:   2016-10-26 18:10:22
-categories: Embedded
+categories: Linux
 tags:  linux embedded uboot
 excerpt: Configuring U-Boot for various Linux deployments
 ---
@@ -38,7 +38,7 @@ Then reset the board to boot it up.
 
 ### Configuring U-Boot for NAND boot deployment
 
-Below are the command prepares for nand boot. 
+Below are the command prepares for nand boot.
 
 
 ```
@@ -89,4 +89,3 @@ Below are the command prepares for nand boot.
 =>setenv bootcmd 'ext2load scsi 0:3 0x1000000 /boot/uImage; ext2load scsi 0:3 0xc00000 /boot/mpc8572ds.dtb;bootm 0x1000000 - c00000'
 =>saveenv
 ```
-
