@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating target images (ramdsik, ext2 image, cramfs, dtb)"
 date:   2016-10-29 12:16:00
-categories: Embedded
+categories: Linux
 tags: linux embedded
 excerpt: Commands for creating target images (ramdsik, ext2 image, cramfs, dtb)
 ---

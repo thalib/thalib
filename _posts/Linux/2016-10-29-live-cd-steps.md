@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Create Live CD"
 date:   2016-10-29 12:16:00
-categories: Embedded
+categories: Linux
 tags: linux embedded
 excerpt: This articles lists down the commands for creating Live CD/ISO image
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Enabling IPv4 Forwarding"
 date:   2016-10-29 12:16:00
-categories: Embedded
+categories: Linux
 tags: linux embedded
 excerpt: Commands for Enabling IPv4 Forwarding
 ---
