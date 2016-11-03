@@ -31,5 +31,18 @@ icon: bookmark
 
 * [G Suite Toolbox](https://toolbox.googleapps.com/apps/main/)
 
+### Reading List
+
+* To Sell Is Human by  Daniel H. Pink
+* **Zero to One by Peter Thiel**
+* The Business School by Robert T Kiyosaki
+* The Business of the 21St Century by Robert T Kiyosaki
+* Rich Dad Poor Dad by Robert T Kiyosaki
+* Bill Gates: The Life and Business Lessons of Bill Gates by George Ilian
+* Work Smarter Not Harder by Timo Kiander
+* Nikola Tesla: Imagination and the Man That Invented the 20th Century by Sean Patrick
+* **Sam Walton: Made In America by Sam Walton, John Huey**
+* Buyology: How Everything We Believe About Why We Buy is Wrong by Martin Lindstrom 
+
 
 {% include comments.html %}
