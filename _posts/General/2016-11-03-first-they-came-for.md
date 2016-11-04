@@ -31,8 +31,9 @@ Here is the indian version of the famous poet, [First they came for](https://en.
 >
 > Then they came for the Secularist, and I did not speak out—
 > Because I was not a Secularist.
+>
+>Then they came for me—and there was no one left to speak for me.
 
-Then they came for me—and there was no one left to speak for me.
 
 I hope you know who is commig,
 I hope the list will keep growing..
