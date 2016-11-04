@@ -11,11 +11,10 @@ May friends ask me where can I find the freelancer task/job, So I am listing her
 
 * [Guru](http://www.guru.com)
 * [Upwork](https://www.upwork.com)
-* [TaskRabbit](https://www.taskrabbit.com)
 * [Fiverr](https://www.fiverr.com)
 * [Toptal](https://www.toptal.com/) - A place for **top** quality <b>tal</b>ents
 * [Freelancer.com](https://www.freelancer.com/job/)
-* [Freelancer.in](https://www.freelancer.in) - India portal of Freelancer.com
+* [Freelancer.in](https://www.freelancer.in) - Indian portal of Freelancer.com
 * [Elance](https://www.elance.com)
 * [Craigslist](http://www.craigslist.org/about/sites)
 * [99designs](https://99designs.com) - For desingers
