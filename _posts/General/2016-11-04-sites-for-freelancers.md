@@ -17,7 +17,7 @@ May friends ask me where can I find the freelancer task/job, So I am listing her
 * [Freelancer.com](https://www.freelancer.com/job/)
 * [Freelancer.in](https://www.freelancer.in) - India portal of Freelancer.com
 * [Elance](https://www.elance.com)
-* [Craigslist][http://www.craigslist.org/about/sites]
+* [Craigslist](http://www.craigslist.org/about/sites)
 * [99designs](https://99designs.com) - For desingers
 * [People Per Hour](https://www.peopleperhour.com) - For coders
 * [FreelanceWritinggigs](http://www.freelancewritinggigs.com) - For article/content writers
