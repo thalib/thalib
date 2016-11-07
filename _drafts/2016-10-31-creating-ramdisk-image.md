@@ -9,7 +9,7 @@ tags: android linux embedded reverse
 gzip -d ramdisk.cpio.gz
 mkdir rootfs
 cd rootfs
-cpio -i -F ../ramdisk.cpio
+cpio -i -d -m ../ramdisk.cpio
 
 out/host/linux-x86/bin/mkbootfs -d out/target/product/msm8952_64/system out/target/product/msm8952_64/root | out/host/linux-x86/bin/minigzip > out/target/product/msm8952_64/ramdisk.img
 
@@ -22,3 +22,5 @@ out/target/product/msm8952_64/boot.img maxsize=68395008 blocksize=135168 total=3
 http://pete.akeo.ie/2013/10/compiling-and-running-your-own-android.html
 https://leanpub.com/awesomeasciidoctornotebook/read
 http://akosma.github.io/eBook-Template/
+http://superuser.com/questions/240473/ramdisk-img-to-ramdisk-cpio-gz
+http://www.lhpup.org/help/faqs/initrd.html
