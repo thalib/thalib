@@ -29,7 +29,7 @@ $ cat text.txt
 87384e
 ```
 
-### Refernce
+### Referncee
 
 * http://stackoverflow.com/questions/32473095/image-to-text-recognition-using-tesseract-ocr-is-better-when-image-is-preprocess
 * https://www.win.tue.nl/~aeb/linux/ocr/tesseract.html

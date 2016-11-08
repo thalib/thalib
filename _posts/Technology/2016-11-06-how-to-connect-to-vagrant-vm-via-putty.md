@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How To Change the OS in Vagrant VM"
+title:  "How To connect to Vagrant using Putty"
 date:   2016-11-01 17:03:56
 categories: Programming
 tags: vagrant ssh putty windows devoops vm
-excerpt: How To Change the OS in Vagrant VM
+excerpt: How To connect to Vagrant using Putty
 ---
 
 PuTTY will not recognize the insecure_private_key (which is in OpenSSH format) provided by Vagrant as a valid, private key. But you can convert the OpenSSH for private key to PuTTY ppk file using  PuTTYgen
