@@ -1,24 +1,30 @@
 ---
 layout: post
-title:  "Tipu Sultan restored a Hindu temple Marathas destroyed"
+title:  "Tipu Sultan restored Hindu temple that were destroyed by Marathas"
 date:   2016-11-10 10:32:30
 categories: History
 tags: tipu mysore karnataka marathas traitor
-excerpt: Marathas destroyed Hindu temple, Where Tipu Sultan restored a Hindu temple
-
+excerpt: Marathas destroyed Hindu temple, but Tipu Sultan restored a Hindu temple that were destroyed by Marathas
 ---
-
-Marathas destroyed Hindu temple, Where Tipu Sultan restored a Hindu temple
-
-### Marathas attacked and sacked Sringeri monastery
 
 Marathas attacking temples during war was not new, remember attack and looting Sringeri monastery on 1791 and [Tirupati shrine in 1759](https://books.google.co.in/books?id=Fxqtx8SflEsC&printsec=frontcover&dq=sringeri+math+tipu+maratha&hl=en&sa=X&ved=0ahUKEwimn53NppnQAhUEKo8KHdbqCaIQ6AEITzAJ#v=onepage&q=tipu&f=false) .
 
 In 1791 the Marathas under the command of Raghunath Rao Patwardhan invaded the Mysore district of Bednur to sacked the **Sringeri monastery** which was under Tipu's rule.
 
-Sringeri monastery was no ordinary place of worship. It had been founded a thousand years before by the father of Hindu Adviata philosophy, **Adi Shankaracharya**. The monk set up an abbey in each corner of the subcontinent: Shringeri in the South, Puri in the East, Dwaraka in the West and Joshimath in the North.
+Sringeri monastery was no ordinary place of worship. It had been founded a **thousand years** before by
 
-The temple was also wealthy, so Marathas sacked it – the first time it was to see such a calamity in its millennia-long history.
+> the father of Hindu Adviata philosophy, **Adi Shankaracharya**.
+
+The monk set up an abbey in each corner of the subcontinent:
+
+* Shringeri in the South
+* Puri in the East
+* Dwaraka in the West
+* Joshimath in the North.
+
+Marathas sacked the temple because it was so wealthy
+
+> the first time it was to see such a calamity in its millennia-long history.
 
 The Marathas stripped the monastery of its considerable wealth, **killed many Brahmin's** and **desecrated the idol of the temple's** presiding deity, the goddess Sharada.
 
@@ -29,11 +35,15 @@ for his help in reconsecrating the idol of Sharada. The Sultan also made monetar
 
 He demolished the Varaha Temple, which employed the **boar symbol** of the Mysore dynasty that he had replaced. Which is common practice of any king to erase the symbols of past dynasty.
 
-But let other temples in his kingdom remain unmolested. The **proof is around you**, how many century old temples still stand in the parts ruled by Tipu.
+But let other temples in his kingdom remain unmolested. The **proof is around you**
+
+> how many century old temples still stand in the parts ruled by Tipu.
 
 ### Tipu donated to Hindu temples
 
-Tipu patronized a number of powerful Hindu temples. He donated silver vessels to the Sri Ranganatha temple in his capital and even ordered the installation of a jade linga, Shiva idol at the Nanjundeshwara temple at Nanjangud.
+Tipu patronized a number of powerful Hindu temples. He donated silver vessels to the Sri Ranganatha temple in his capital and even ordered the
+
+> installation of a jade linga, Shiva idol at the Nanjundeshwara temple at Nanjangud.
 
 ### Did Tipu kill Hindu ?
 
@@ -51,7 +61,7 @@ Those who say that Hindu's were persecuted by Tipu let know that, Tipu’s right
 
 Imagine in modern time Hindu person given the second most important person in the Pakistan government.
 
-### Whore are the real traitors?
+### Who are the real traitors?
 
 Those who call Tipu killed Hindu are from the same gang who **killed the father of our Indian Nation**
 
