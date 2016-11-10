@@ -2,7 +2,7 @@
 layout: post
 title:  "Prophets and thier Ages"
 date:   2016-11-07 11:34:29
-categories: General
+categories: History
 tags: prophet age
 excerpt: Prophets and thier Ages
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Prophets of Islam and thier Orgin Locations"
 date:   2016-11-07 07:34:29
-categories: General
+categories: History
 tags: prophet location
 excerpt: Prophets and thier Orgin Locations
 ---
