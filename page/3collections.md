@@ -21,6 +21,12 @@ icon: bookmark
 * [பசுமை தமிழகம் - Tamil](http://gttaagri.relier.in)
 * [வேளாண் அரங்கம் - Tamil](https://velanarangam.wordpress.com)
 
+### Stock Market / Trading
+
+* [equityboss.com](https://equityboss.com)
+* [screener.in](https://www.screener.in)
+* [marketsmojo.com](http://www.marketsmojo.com)
+
 ### Hype Cycle for 2016
 
 ![](http://na2.www.gartner.com/imagesrv/newsroom/images/emerging-tech-hc-2016.png;wa59f7b006c484099e)
@@ -42,7 +48,7 @@ icon: bookmark
 * Work Smarter Not Harder by Timo Kiander
 * Nikola Tesla: Imagination and the Man That Invented the 20th Century by Sean Patrick
 * **Sam Walton: Made In America by Sam Walton, John Huey**
-* Buyology: How Everything We Believe About Why We Buy is Wrong by Martin Lindstrom 
+* Buyology: How Everything We Believe About Why We Buy is Wrong by Martin Lindstrom
 
 
 {% include comments.html %}
