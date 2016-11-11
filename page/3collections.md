@@ -26,6 +26,8 @@ icon: bookmark
 * [equityboss.com](https://equityboss.com)
 * [screener.in](https://www.screener.in)
 * [marketsmojo.com](http://www.marketsmojo.com)
+* [moneyworks4me.com](http://www.moneyworks4me.com)
+* [thefundoo.com](http://thefundoo.com)
 
 ### Hype Cycle for 2016
 
