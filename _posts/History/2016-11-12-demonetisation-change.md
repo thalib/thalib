@@ -20,7 +20,8 @@ This will create **negative shock** to the nation, this is already felt.
 * Tourism will get hurt
 * all important peoples suffering
 
-> India Is Rich, But Are The People Poor
+> India Is Rich, But The People Are Poor
+
 > Its not due to Economic its all because of corruption
 
 ### What is BLACK MONEY ?
