@@ -14,15 +14,21 @@ icon: bookmark
 * [https://www.edx.org](https://www.edx.org)
 * [https://www.coursera.org](https://www.coursera.org)
 * [https://www.freecodecamp.com](https://www.freecodecamp.com)
+* [http://engineertech.org](http://engineertech.org)
 
 ### Farming Resource
 
 * [Jamsetji Tata National Virtual Academy - M S Swaminathan Research Foundation](http://www.mssrf-nva.org)
 * [பசுமை தமிழகம் - Tamil](http://gttaagri.relier.in)
 * [வேளாண் அரங்கம் - Tamil](https://velanarangam.wordpress.com)
+* [Bee Keeping Naturally](https://www.beekeepingnaturally.com.au/)
 
 ### Stock Market / Trading
 
+* [google.com/finance](https://www.google.com/finance)
+* [in.finance.yahoo.com/](https://in.finance.yahoo.com/)
+* [moneycontrol.com](http://www.moneycontrol.com/stocksmarketsindia/)
+* [equitymaster.com](https://www.equitymaster.com)
 * [equityboss.com](https://equityboss.com)
 * [screener.in](https://www.screener.in)
 * [marketsmojo.com](http://www.marketsmojo.com)
@@ -51,6 +57,6 @@ icon: bookmark
 * Nikola Tesla: Imagination and the Man That Invented the 20th Century by Sean Patrick
 * **Sam Walton: Made In America by Sam Walton, John Huey**
 * Buyology: How Everything We Believe About Why We Buy is Wrong by Martin Lindstrom
-
+* Web Desing Books List on [http://blog.lemonstand.com](http://blog.lemonstand.com/best-web-design-books/)
 
 {% include comments.html %}
