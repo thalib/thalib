@@ -28,3 +28,8 @@ function post-cd() {
 function post-clean() {
 	rm `find . | grep '~'`
 }
+
+function post-update() {
+	git commit -a -s -m "Updated"
+	git push origin master
+}
