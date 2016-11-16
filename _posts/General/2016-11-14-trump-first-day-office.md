@@ -7,7 +7,7 @@ tags: us trump cia pentagon fbi
 excerpt: US President Trump's first day at the Oval Office
 ---
 
-US President Trump's first day at the Oval Office
+Its a simple imaginative dialog how the US President Trump's first day at the Oval Office will be.
 
 First briefing by the **CIA, Pentagon, FBI**
 

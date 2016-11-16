@@ -2,8 +2,8 @@
 layout: post
 title:  "Bhopal Fake Encounter - Here is why it is fake"
 date:   2016-11-07 07:34:29
-categories: General
-tags: bhopal encounter questions
+categories: Events
+tags: bhopal encounter questions 2016
 excerpt: Bhopal Fake Encounter - Top Questions
 ---
 
