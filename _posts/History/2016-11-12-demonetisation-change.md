@@ -41,6 +41,7 @@ The **real black money** is
 * corporates and companies who steel and destroy our natural resources
 * Politicians and their binamis
 * Leading lawyers who back the corruption and corporates
+* Shutdown casinos, prostitution brothels
 
 > Black money comes mainly from India
 > - Julian Assange, WikiLeaks Founder
