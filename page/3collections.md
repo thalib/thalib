@@ -23,18 +23,6 @@ icon: bookmark
 * [வேளாண் அரங்கம் - Tamil](https://velanarangam.wordpress.com)
 * [Bee Keeping Naturally](https://www.beekeepingnaturally.com.au/)
 
-### Stock Market / Trading
-
-* [google.com/finance](https://www.google.com/finance)
-* [in.finance.yahoo.com/](https://in.finance.yahoo.com/)
-* [moneycontrol.com](http://www.moneycontrol.com/stocksmarketsindia/)
-* [equitymaster.com](https://www.equitymaster.com)
-* [equityboss.com](https://equityboss.com)
-* [screener.in](https://www.screener.in)
-* [marketsmojo.com](http://www.marketsmojo.com)
-* [moneyworks4me.com](http://www.moneyworks4me.com)
-* [thefundoo.com](http://thefundoo.com)
-
 ### Hype Cycle for 2016
 
 ![](http://na2.www.gartner.com/imagesrv/newsroom/images/emerging-tech-hc-2016.png;wa59f7b006c484099e)

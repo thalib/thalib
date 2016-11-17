@@ -2,7 +2,7 @@
 layout: post
 title:  "The time when your money is not your - Demonetisation of 1000 & 500 Rs"
 date:   2016-11-12 23:05:21
-categories: General
+categories: History
 tags: india currency 1000 500 rupee
 excerpt: The time when your money is not your - Demonetisation of 1000 & 500 Rs
 ---
@@ -19,6 +19,10 @@ This will create **negative shock** to the nation, this is already felt.
 * Reprinting cost of new currency
 * Tourism will get hurt
 * all important peoples suffering
+* Adani, Ambani had prior info on demonetisation, says BJP MLA Rajawat
+* Janardhana Reddy's spends Rs 550 crore for his [daughter’s marriage](http://www.firstpost.com/india/demonetisation-two-numbers-show-how-currency-ban-treats-indias-rich-and-poor-3109958.html)
+* 47+ is the latest count of reported [deaths across India](http://www.firstpost.com/politics/demonetisation-over-30-people-dead-but-modi-govt-views-it-as-minor-inconveniences-3109360.html) and couting
+
 
 > India Is Rich, But The People Are Poor
 
