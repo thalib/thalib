@@ -30,7 +30,7 @@ pdfjam *.pdf --no-landscape --frame true --nup 3x3 --suffix complete --outfile o
 ```
 
 ## Reference
-
+https://github.com/GregariousMammal/Chip-Shop/
 https://www.sitepoint.com/creating-pdfs-from-markdown-with-pandoc-and-latex/
 https://en.wikibooks.org/wiki/LaTeX/Package_Reference
 https://www.sharelatex.com/learn
