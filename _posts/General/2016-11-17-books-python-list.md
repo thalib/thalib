@@ -12,3 +12,7 @@ excerpt: Books - Python Books List
 * [Gray Hat Python - Python Programming for Hackers and Reverse Engineers By Justin Seitz](http://shop.oreilly.com/product/9781593271923.do)
 * [Web Scraping with Python - Collecting Data from the Modern Web By Ryan Mitchell](http://shop.oreilly.com/product/0636920034391.do)
 * [Foundations for Analytics with Python - From Non-Programmer to Hacker By Clinton W. Brownley](http://shop.oreilly.com/product/0636920038375.do)
+
+More resource
+
+* [http://www.fromdev.com/2014/03/python-tutorials-resources.html](http://www.fromdev.com/2014/03/python-tutorials-resources.html)
