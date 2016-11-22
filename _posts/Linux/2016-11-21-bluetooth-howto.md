@@ -8,6 +8,41 @@ excerpt: How to use Bluetooth in Linux using Bluez
 ---
 
 
+
+```
+mohamed @ turnip (master)
+ └─ $ ▶ hciconfig
+hci0:	Type: BR/EDR  Bus: USB
+	BD Address: 5C:F3:70:66:9D:06  ACL MTU: 1021:8  SCO MTU: 64:1
+	UP RUNNING PSCAN
+	RX bytes:606 acl:0 sco:0 events:36 errors:0
+	TX bytes:939 acl:0 sco:0 commands:36 errors:0
+```
+
+```
+mohamed @ turnip (master)
+ └─ $ ▶ hciconfig  -a
+hci0:	Type: BR/EDR  Bus: USB
+	BD Address: 5C:F3:70:66:9D:06  ACL MTU: 1021:8  SCO MTU: 64:1
+	UP RUNNING PSCAN
+	RX bytes:606 acl:0 sco:0 events:36 errors:0
+	TX bytes:939 acl:0 sco:0 commands:36 errors:0
+	Features: 0xbf 0xfe 0xcf 0xfe 0xdb 0xff 0x7b 0x87
+	Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3
+	Link policy: RSWITCH SNIFF
+	Link mode: SLAVE ACCEPT
+	Name: 'turnip-0'
+	Class: 0x600100
+	Service Classes: Audio, Telephony
+	Device Class: Computer, Uncategorized
+	HCI Version: 4.0 (0x6)  Revision: 0x1000
+	LMP Version: 4.0 (0x6)  Subversion: 0x220e
+	Manufacturer: Broadcom Corporation (15)
+```
+
+
+## BT Audio
+
 The most common use of bluetooth audio is to make a wireless connection to a cellphone. This is typically done using a small headset that fits over one ear. These headsets don't deliver outstanding audio quality.
 
 ### SCO
@@ -91,3 +126,7 @@ aplay -B 1000000 -D plughw:Headset /usr/share/sounds/generic.wav
 * [https://ubuntuforums.org/archive/index.php/t-213731.html](https://ubuntuforums.org/archive/index.php/t-213731.html)
 * [https://wiki.archlinux.org/index.php/Bluetooth_headset](https://wiki.archlinux.org/index.php/Bluetooth_headset)
 * [http://www.fromdev.com/2014/03/python-tutorials-resources.html](http://www.fromdev.com/2014/03/python-tutorials-resources.html)
+* http://www.bluez.org/the-management-interface/
+* http://www.linuxquestions.org/questions/linux-wireless-networking-41/setting-up-bluez-with-a-passkey-pin-to-be-used-as-headset-for-iphone-816003/
+* https://wiki.debian.org/BluetoothUser
+* http://wiki.e-consystems.net/index.php/Bluetooth_wireless_mouse_and_key_board
