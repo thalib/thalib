@@ -67,3 +67,9 @@ If  it comes in container, then Govt and military is in full cooperation mode.
 Correct the law, then bring the change. until then it is now use baby.
 
 > Don't use currency for savings, especially India Rupees
+
+### RBI governor Urjit Patel is the Scapegoat
+
+Now RBI governor Urjit Patel is the **Scapegoat**, The All India Bank Officers Confederation has called for the resignation of Reserve Bank of India governor Urjit Patel for being a party to demonetization, which it claims has brought havoc in economy and in the life of common public.
+
+> May be this is the reason why the Raguram Ranjan was changed. 

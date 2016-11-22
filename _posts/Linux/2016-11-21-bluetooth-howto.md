@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to use Bluetooth in Linux using Bluze"
-date:   2016-11-21 15:48:44
-categories: General
-tags:
-excerpt: How to use Bluetooth in Linux using Bluze
+title:  "How to use Bluetooth in Linux using Bluez"
+date:   2016-11-22 07:48:44
+categories: Linux
+tags: bluez bluetooth howto
+excerpt: How to use Bluetooth in Linux using Bluez
 ---
 
 
@@ -75,19 +75,19 @@ aplay -B 1000000 -D plughw:Headset /usr/share/sounds/generic.wav
 
 
 ### Referecnes
-* https://github.com/atwilc3000/driver/wiki/bluetooth
-* http://trac.gateworks.com/wiki/wireless/bluetooth
-* https://wiki.gumstix.com/index.php?title=Category:How_to_-_bluetooth
-* http://bluetooth-alsa.sourceforge.net
-* http://bluetooth-alsa.sourceforge.net/embed.html
-* https://help.ubuntu.com/community/BluetoothHeadset
-* https://help.ubuntu.com/community/BluetoothAudio
-* https://help.ubuntu.com/community/BluetoothSetup
-* http://www.gargan.org/linux/snd-bt-sco/
-* http://www.thinkwiki.org/wiki/How_to_setup_Bluetooth
-* https://wiki.archlinux.org/index.php/Bluetooth_headset
-* https://community.nxp.com/thread/355201
-* https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/351693
-* https://ubuntuforums.org/archive/index.php/t-213731.html
-* https://wiki.archlinux.org/index.php/Bluetooth_headset
-* http://www.fromdev.com/2014/03/python-tutorials-resources.html
+* [https://github.com/atwilc3000/driver/wiki/bluetooth](https://github.com/atwilc3000/driver/wiki/bluetooth)
+* [http://trac.gateworks.com/wiki/wireless/bluetooth](http://trac.gateworks.com/wiki/wireless/bluetooth)
+* [https://wiki.gumstix.com/index.php?title=Category:How_to_-_bluetooth](https://wiki.gumstix.com/index.php?title=Category:How_to_-_bluetooth)
+* [http://bluetooth-alsa.sourceforge.net](http://bluetooth-alsa.sourceforge.net)
+* [http://bluetooth-alsa.sourceforge.net/embed.html](http://bluetooth-alsa.sourceforge.net/embed.html)
+* [https://help.ubuntu.com/community/BluetoothHeadset](https://help.ubuntu.com/community/BluetoothHeadset)
+* [https://help.ubuntu.com/community/BluetoothAudio](https://help.ubuntu.com/community/BluetoothAudio)
+* [https://help.ubuntu.com/community/BluetoothSetup](https://help.ubuntu.com/community/BluetoothSetup)
+* [http://www.gargan.org/linux/snd-bt-sco/](http://www.gargan.org/linux/snd-bt-sco/)
+* [http://www.thinkwiki.org/wiki/How_to_setup_Bluetooth](http://www.thinkwiki.org/wiki/How_to_setup_Bluetooth)
+* [https://wiki.archlinux.org/index.php/Bluetooth_headset](https://wiki.archlinux.org/index.php/Bluetooth_headset)
+* [https://community.nxp.com/thread/355201](https://community.nxp.com/thread/355201)
+* [https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/351693](https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/351693)
+* [https://ubuntuforums.org/archive/index.php/t-213731.html](https://ubuntuforums.org/archive/index.php/t-213731.html)
+* [https://wiki.archlinux.org/index.php/Bluetooth_headset](https://wiki.archlinux.org/index.php/Bluetooth_headset)
+* [http://www.fromdev.com/2014/03/python-tutorials-resources.html](http://www.fromdev.com/2014/03/python-tutorials-resources.html)
