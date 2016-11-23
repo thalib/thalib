@@ -15,8 +15,8 @@ excerpt: This post is all about XYZ (CHANGE ME)
 
 "
 
-function post-create() {
-	POST_NAME=$POST_PATH/$POST_DATE-NEW-POST-CHANGE-MY-NAME-$RANDOM.md
+function post-new() {
+	POST_NAME=$POST_PATH/$POST_DATE-NEW-POST-$RANDOM.md
 	echo "$POST_TITLE" > $POST_NAME
 	echo "Created $POST_NAME"
 }

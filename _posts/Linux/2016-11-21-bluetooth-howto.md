@@ -7,11 +7,18 @@ tags: bluez bluetooth howto
 excerpt: How to use Bluetooth in Linux using Bluez
 ---
 
+**This notes is under progress**
 
+Bluetooth controllers that are registered with the kernel can be listed from sys entry
+
+```
+# ls /sys/class/bluetooth
+hci0
+```
 
 ```
 mohamed @ turnip (master)
- └─ $ ▶ hciconfig
+ └─ $  hciconfig
 hci0:	Type: BR/EDR  Bus: USB
 	BD Address: 5C:F3:70:66:9D:06  ACL MTU: 1021:8  SCO MTU: 64:1
 	UP RUNNING PSCAN
@@ -21,7 +28,7 @@ hci0:	Type: BR/EDR  Bus: USB
 
 ```
 mohamed @ turnip (master)
- └─ $ ▶ hciconfig  -a
+ └─ $ hciconfig  -a
 hci0:	Type: BR/EDR  Bus: USB
 	BD Address: 5C:F3:70:66:9D:06  ACL MTU: 1021:8  SCO MTU: 64:1
 	UP RUNNING PSCAN
@@ -40,6 +47,138 @@ hci0:	Type: BR/EDR  Bus: USB
 	Manufacturer: Broadcom Corporation (15)
 ```
 
+```
+$ hcitool scan --refresh
+Scanning ...
+	00:25:56:D3:DF:78	Dell Wireless 365 Bluetooth Module
+	00:1E:DE:21:D0:85	Nokia BH-505
+	30:F7:72:67:FF:28	ubuntu-0
+	44:1C:A8:25:9B:30	ubuntu-0
+```
+
+### Scanning for BT devices
+
+hcitool has 3 commands dev, scan and inq for querying deivce information
+
+**hcitool dev** gets the self bt address, that is your bt dongle
+
+```
+$ hcitool dev
+Devices:
+	hci0	5C:F3:70:66:9D:06
+```
+
+**hcitool scan** scans for any device and returns the name and the MAC address.
+
+hcitool inq inquires about a device, and receives the MAC address, clock offset and class. The class tells you what type of device you are talking too, whether it be a bluetooth headset, phone or speakers etc. more info on class can be found on [bluetooth.com](https://www.bluetooth.com/specifications/assigned-numbers/baseband)
+
+Inquire the device class
+```
+$ hcitool inq
+Inquiring ...
+	30:F7:72:67:FF:28	clock offset: 0x3435	class: 0x6c0100
+	34:23:87:65:CB:C6	clock offset: 0x4c8b	class: 0x28010c
+	E0:94:67:61:BF:DD	clock offset: 0x1d6c	class: 0x2a010c
+	5C:31:3E:E2:AF:CB	clock offset: 0x243d	class: 0x7c0100
+	00:25:56:D3:DF:78	clock offset: 0x7ff4	class: 0x000000
+	44:1C:A8:25:9B:30	clock offset: 0x50e8	class: 0x6c0100
+```
+You can get the name of the bt device with name command
+```
+$ hcitool name 00:1E:DE:21:D0:85
+Nokia BH-505
+```
+
+### BT and Alsa config
+
+Add below config to /etc/bluetooth/audio.conf
+
+```
+Enable=Source,Sink,Headset,Gateway,Control,Socket,Media
+```
+
+Add below Alsa configuration to ~/.asoundrc
+
+```
+pcm.btheadset {
+   type plug
+   slave {
+       pcm {
+           type bluetooth
+           device 00:1E:DE:21:D0:85
+           profile "auto"
+       }
+   }
+   hint {
+       show on
+       description "BT S10"
+   }
+}
+ctl.btheadset {
+  type bluetooth
+}
+```
+
+### Pairing device
+
+```
+$ bluetooth-agent --help
+Bluetooth agent ver 4.101
+
+Usage:
+	agent [--adapter adapter-path] [--path agent-path] <passkey> [<device>]
+
+$ bluetooth-agent 0000 00:1E:DE:21:D0:85
+Agent has been released
+```
+
+Next is to create connection to remove device
+```
+$ sudo hcitool cc --role=s 00:1E:DE:21:D0:85
+```
+
+Opposite of above, To disconnect a device
+```
+$ sudo hcitool dc 00:1E:DE:21:D0:85
+```
+
+You can use **hcitool con** command to check if connection has succeded or not
+```
+$ hcitool con
+Connections:
+	< ACL 00:1E:DE:21:D0:85 handle 11 state 1 lm MASTER
+```
+
+Next step is to make the device thrusted
+
+```
+bluez-test-device trusted 00:1E:DE:21:D0:85 yes
+```
+
+Now connect devices profile
+
+```
+bluez-test-audio connect 00:1E:DE:21:D0:85
+```
+
+### Avaliable bt commands
+
+```
+bluetoothd
+bluetooth-agent
+bluez-simple-agent
+bluez-simple-service
+bluez-test-adapter
+bluez-test-network
+bluez-test-audio
+bluez-test-serial
+bluez-test-device
+bluez-test-service
+bluez-test-discovery
+bluez-test-telephony
+bluez-test-input
+bluez-test-manager
+```
 
 ## BT Audio
 
@@ -124,9 +263,21 @@ aplay -B 1000000 -D plughw:Headset /usr/share/sounds/generic.wav
 * [https://community.nxp.com/thread/355201](https://community.nxp.com/thread/355201)
 * [https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/351693](https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/351693)
 * [https://ubuntuforums.org/archive/index.php/t-213731.html](https://ubuntuforums.org/archive/index.php/t-213731.html)
-* [https://wiki.archlinux.org/index.php/Bluetooth_headset](https://wiki.archlinux.org/index.php/Bluetooth_headset)
 * [http://www.fromdev.com/2014/03/python-tutorials-resources.html](http://www.fromdev.com/2014/03/python-tutorials-resources.html)
 * http://www.bluez.org/the-management-interface/
 * http://www.linuxquestions.org/questions/linux-wireless-networking-41/setting-up-bluez-with-a-passkey-pin-to-be-used-as-headset-for-iphone-816003/
 * https://wiki.debian.org/BluetoothUser
 * http://wiki.e-consystems.net/index.php/Bluetooth_wireless_mouse_and_key_board
+* http://alsa.opensrc.org/Asoundrc
+* http://www.alsa-project.org/main/index.php/Asoundrc
+* https://wiki.gentoo.org/wiki/Bluetooth
+* https://wiki.archlinux.org/index.php/Bluetooth_headset
+* http://elinux.org/RPi_Bluetooth_LE
+* https://bbs.archlinux.org/viewtopic.php?id=141760
+* https://wiki.gentoo.org/wiki/Bluetooth_Headset
+
+TI Links
+* https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/272288
+* http://processors.wiki.ti.com/index.php/CC256x_Advanced_Voice_and_Audio_Features
+* http://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/p/401199/1420546#1420546
+*
