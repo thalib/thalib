@@ -2,8 +2,8 @@
 layout: post
 title:  "How the companies are saving TAX"
 date:   2016-11-15 21:03:56
-categories: Business
-tags: business tax
+categories: Finance
+tags: business tax saving
 excerpt: How the companies are saving TAX
 ---
 
