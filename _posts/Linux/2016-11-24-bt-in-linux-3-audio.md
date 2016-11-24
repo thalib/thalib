@@ -68,7 +68,7 @@ Enable=Source,Sink,Headset,Gateway,Control,Socket,Media
 ```
 
 
-Add below Alsa configuration to ~/.asoundrc to recognize our bt as sink/source
+Add below Alsa configuration to /etc/asound.conf or ~/.asoundrc for alsa recognize our bt as sink/source
 
 ```
 pcm.btnokia {
@@ -107,6 +107,8 @@ Record audio file
 arecord -D  btnokia -d 10 out.wav
 ```
 
-### Refrence
+More readings on
 
-* [Ubuntu BluetoothHeadset](https://help.ubuntu.com/community/BluetoothHeadset)
+* [Ubuntu Wiki](https://help.ubuntu.com/community/BluetoothHeadset)
+* [Gentoo Wiki](https://wiki.gentoo.org/wiki/Bluetooth_Headset)
+* [ArchLinux Wiki](https://wiki.archlinux.org/index.php/Bluetooth_headset)

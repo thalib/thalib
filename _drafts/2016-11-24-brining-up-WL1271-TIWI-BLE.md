@@ -13,3 +13,11 @@ excerpt: Bringing up WL1271-TIWI-BLE
 
 * [TI Forum](https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/272288)
 * [How Setup BT Headset in Ubuntu](https://help.ubuntu.com/community/BluetoothHeadset)
+
+http://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/p/401199/1420546
+http://processors.wiki.ti.com/index.php/CC256x
+http://processors.wiki.ti.com/index.php/WL12xx_NLCP_Build_Instructions
+http://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/555546
+http://processors.wiki.ti.com/index.php/Wireless_Connectivity
+http://processors.wiki.ti.com/index.php/WL18xx
+https://www.lsr.com/embedded-wireless-modules/wifi-plus-bluetooth-module/tiwi-ble
