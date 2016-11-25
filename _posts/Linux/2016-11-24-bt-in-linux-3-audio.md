@@ -112,3 +112,7 @@ More readings on
 * [Ubuntu Wiki](https://help.ubuntu.com/community/BluetoothHeadset)
 * [Gentoo Wiki](https://wiki.gentoo.org/wiki/Bluetooth_Headset)
 * [ArchLinux Wiki](https://wiki.archlinux.org/index.php/Bluetooth_headset)
+* [Article on A2DP and HSP/HFP]http://blog.cyphermox.net/2012/03/call-for-testing-bluez-a2dp-and-hsphfp.html
+* [Broadcom BCM20702A0 Bug](http://askubuntu.com/questions/180437/bluetooth-headset-a2dp-works-hsp-hfp-not-no-sound-no-mic)
+* [HFP on Bluez and ofono](http://padovan.org/blog/2010/02/handsfree-profile-into-bluez-and-ofono/)
+* [nohands - Linux Hands-Free Profile server](http://nohands.sourceforge.net)

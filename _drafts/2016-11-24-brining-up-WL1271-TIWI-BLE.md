@@ -21,3 +21,5 @@ http://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/55
 http://processors.wiki.ti.com/index.php/Wireless_Connectivity
 http://processors.wiki.ti.com/index.php/WL18xx
 https://www.lsr.com/embedded-wireless-modules/wifi-plus-bluetooth-module/tiwi-ble
+
+[BTS File](http://processors.wiki.ti.com/index.php/Bluetooth_BTS_files_overview)

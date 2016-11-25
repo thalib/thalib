@@ -22,6 +22,8 @@ This will create **negative shock** to the nation, this is already felt.
 * Adani, Ambani had prior info on demonetisation, says BJP MLA Rajawat
 * Janardhana Reddy's spends Rs 550 crore for his [daughter’s marriage](http://www.firstpost.com/india/demonetisation-two-numbers-show-how-currency-ban-treats-indias-rich-and-poor-3109958.html)
 * 47+ is the latest count of reported [deaths across India](http://www.firstpost.com/politics/demonetisation-over-30-people-dead-but-modi-govt-views-it-as-minor-inconveniences-3109360.html) and couting
+* Indian Rupee touched a record low of [68.86/USD](http://www.firstpost.com/business/rupee-at-record-low-of-68-86-time-urjit-patel-did-a-raghuram-rajan-to-save-the-unit-3122522.html), expected to [cross 70](http://economictimes.indiatimes.com/markets/stocks/news/tighten-your-seat-belts-rupee-could-be-heading-for-70-level-in-near-term/articleshow/55613307.cms)
+* Locjam - Oppositions asks Modi to come-up and speak, but Modi absconding. Due to this both parliamentary houses are blocked.
 
 
 > India Is Rich, But The People Are Poor
@@ -45,7 +47,7 @@ The **real black money** is
 * corporates and companies who steel and destroy our natural resources
 * Politicians and their binamis
 * Leading lawyers who back the corruption and corporates
-* Shutdown casinos, prostitution brothels
+* casinos, prostitution brothels
 
 > Black money comes mainly from India
 > - Julian Assange, WikiLeaks Founder
@@ -72,4 +74,4 @@ Correct the law, then bring the change. until then it is now use baby.
 
 Now RBI governor Urjit Patel is the **Scapegoat**, The All India Bank Officers Confederation has called for the resignation of Reserve Bank of India governor Urjit Patel for being a party to demonetization, which it claims has brought havoc in economy and in the life of common public.
 
-> May be this is the reason why the Raguram Ranjan was changed. 
+> May be this is the reason why the Raguram Ranjan was changed.
