@@ -7,6 +7,38 @@ tags: programming language go
 excerpt: Notes on Go language
 ---
 
+## Installation and setup
+
+GOPATH evnrioment variable tells the go tool suite, the location of source code and pkg, this can be changed as per need by user to point diffrent location.
+
+In Linux OS, export command is used to setup GOPATH
+
+Set current directory as GOPATH
+
+```export GOPATH=$PWD```
+
+**[or]**
+
+Set specific direcotry
+
+```export GOPATH=~/project/src```
+
+For instruction on how to in Windows OS [link](http://www.wadewegner.com/2014/12/easy-go-programming-setup-for-windows/) to setup GOPATH
+
+## go command
+
+go is a complete toolsuite, it can be invoked using **go** command, for example to check the version of go use below command
+
+```go version
+go version go1.7 windows/amd64
+```
+
+there are plenty of more other sub-commands offered by go tool suite, to get list of all subcommands
+
+```go help
+```
+
+## Start
 Go language is a
 
 Here is a classical Hello World program
