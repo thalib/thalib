@@ -24,6 +24,8 @@ This will create **negative shock** to the nation, this is already felt.
 * 47+ is the latest count of reported [deaths across India](http://www.firstpost.com/politics/demonetisation-over-30-people-dead-but-modi-govt-views-it-as-minor-inconveniences-3109360.html) and couting
 * Indian Rupee touched a record low of [68.86/USD](http://www.firstpost.com/business/rupee-at-record-low-of-68-86-time-urjit-patel-did-a-raghuram-rajan-to-save-the-unit-3122522.html), expected to [cross 70](http://economictimes.indiatimes.com/markets/stocks/news/tighten-your-seat-belts-rupee-could-be-heading-for-70-level-in-near-term/articleshow/55613307.cms)
 * Locjam - Oppositions asks Modi to come-up and speak, but Modi absconding. Due to this both parliamentary houses are blocked.
+* 50% Income Tax On Unaccounted Deposits
+* 85% Income Tax If Caught [do not save in your home]
 
 
 > India Is Rich, But The People Are Poor
@@ -75,3 +77,25 @@ Correct the law, then bring the change. until then it is now use baby.
 Now RBI governor Urjit Patel is the **Scapegoat**, The All India Bank Officers Confederation has called for the resignation of Reserve Bank of India governor Urjit Patel for being a party to demonetization, which it claims has brought havoc in economy and in the life of common public.
 
 > May be this is the reason why the Raguram Ranjan was changed.
+
+### Black Money to Go Cashless
+
+In **Mann Ki Baat** broadcasted on 27, Nov 2016 PM Modi changed his tone, from black money, corruption and counterfeit currency to cashless economy. BJP govt was stressing people to go for cashless mode from day one as alternative, but now PM, FM and the Govt circle started openly promoting (marketing) App payment, Credit Card, Debit Card, etc. Its a major shift to cashless economy
+
+Most of the India is still run on Cash, this irks the FDI when where they come and setup super duper store, e-conmmerce and but no people show up there. Now your cash is gone, you are not allowed to withdraw above cap limit.
+
+> The real message is either use Credit/debit/app payment or Die.
+
+### Reply of an X Army men
+
+A retired Indian Army veteran has something to say about demonetization. What he has to say is a tight slap on all those who drag our soldiers to defend their lame arguments to hide truth.
+
+Lieutenant Colonel Darshan Dhillon retired from the Indian Army in 2006. Currently living in Punjab's Ludhiana, Colonel Dhillon went to an ATM in the city to withdraw some cash.
+
+In a [Facebook post](This is his Facebook post.), Dhillon said,
+
+> "I was standing in long ATM queue and getting irritated on mismanagement on a good issue. The fellow Modi bhakt behind gave me a quick reaction by saying, why are you perturbed think about about army persons standing 20 hrs in day on border.".
+>
+> Narrating how his reply removed the man's "nationalism with a jolt," he wrote, "my curt reply removed his deshbhagti with a jolt when I told him that I did that on border for 20 years and standing here to withdraw my pension on that account. He should show his deshbhagti in getting us actual **OROP and CPC** from Modi ji rather than issuing certificates in ATM lines [SIC]."
+
+![demonetization x army mens reply](http://media2.intoday.in/indiatoday/images/stories//2016November/d_112716022452.png)

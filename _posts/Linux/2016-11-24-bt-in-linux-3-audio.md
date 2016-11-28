@@ -33,11 +33,7 @@ Next is to create connection to remove device
 sudo hcitool cc --role=s 00:1E:DE:21:D0:85
 ```
 
-Note: Opposite cc is, dc - disconnect a device
-
-```
-sudo hcitool dc 00:1E:DE:21:D0:85
-```
+**Note:** Opposite cc is dc ```sudo hcitool dc 00:1E:DE:21:D0:85``` to disconnect the bt device
 
 Then we have to add the device as thrusted
 
@@ -53,6 +49,7 @@ bluez-test-audio connect 00:1E:DE:21:D0:85
 
 
 You can use **hcitool con** command to check if connection has succeded or not
+
 ```
 $ hcitool con
 Connections:
@@ -107,12 +104,25 @@ Record audio file
 arecord -D  btnokia -d 10 out.wav
 ```
 
+To make a loop back
+
+```
+arecord -D  btnokia | aplay -D btnokia
+```
+
+Wit gstreamser
+
+Install gstreamer support
+
+```
+sudo apt-get install gstreamer-tools bluez-gstreamer
+```
 More readings on
 
 * [Ubuntu Wiki](https://help.ubuntu.com/community/BluetoothHeadset)
 * [Gentoo Wiki](https://wiki.gentoo.org/wiki/Bluetooth_Headset)
 * [ArchLinux Wiki](https://wiki.archlinux.org/index.php/Bluetooth_headset)
-* [Article on A2DP and HSP/HFP]http://blog.cyphermox.net/2012/03/call-for-testing-bluez-a2dp-and-hsphfp.html
+* [Article on A2DP and HSP/HFP](http://blog.cyphermox.net/2012/03/call-for-testing-bluez-a2dp-and-hsphfp.html)
 * [Broadcom BCM20702A0 Bug](http://askubuntu.com/questions/180437/bluetooth-headset-a2dp-works-hsp-hfp-not-no-sound-no-mic)
 * [HFP on Bluez and ofono](http://padovan.org/blog/2010/02/handsfree-profile-into-bluez-and-ofono/)
 * [nohands - Linux Hands-Free Profile server](http://nohands.sourceforge.net)
