@@ -44,10 +44,10 @@ As per [TI Wiki](http://processors.wiki.ti.com/index.php/CC256x_Bluetooth_Hardwa
 
 Here is how to combile
 
-1. Download the [http://www.ti.com/tool/wilink-bt_wifi-wireless_tools HCI tester tool in order to edit the init scripts(.bts) files.
+* Download the [http://www.ti.com/tool/wilink-bt_wifi-wireless_tools HCI tester tool in order to edit the init scripts(.bts) files.
 * Download the device specific init scripts from here.
 * Copy all of the commands from the add-on script
-* Paste the commands from the add-on script, into the main script immediately after Enable fast clock XTAL support and before the Enable eHILL commands.
+* Paste the commands from the add-on script, into the main script immediately **after** Enable fast clock XTAL support and **before** the Enable eHILL commands.
 * Save the new script and copy it onto the Linux SD card in the /lib/firmware/
 
 ### WBS Features in CC256x devices
@@ -58,7 +58,32 @@ Provide support for packet loss concealment (PLC) for WBS
 The internal mSBC codec can be applied only through the PCM interface. Assisted WBS over HCI (UART) is not supported.
 NoteNote: Only one WB speech extended synchronous connection oriented (eSCO) is supported at a time.
 
-[Software Setup for Assisted WBS](http://processors.wiki.ti.com/index.php/CC256x_Advanced_Voice_and_Audio_Features)
+Software Setup for Assisted WBS
+The AVPR functions cannot run concurrently with BLE or ANT. You must first disable BLE/ANT with the corresponding command:
+BLE: Send_HCI_VS_BLE_Enable 0xFD5B, 0, 0
+ANT: Send_HCI_VS_ANT_Enable 0xFDD0, 0, 0, 0
+The HCI_VS_Write_CODEC_Config (0xFD06) command is required to set fSYNC to a 16-kHz sampling rate (and correspondingly double the clock speed), as well as set up the standard codec PCM parameters.
+The following commands are required to activate WB speech in the CC256xB device:
+//configure codec to 16 kHz 16 bit samples. will be SBC encoded and sent over 64 kbps. eSCO link.
+HCI_VS_Write_CODEC_Config 0xFD06, 3072, 0x00, 16000, 0x0001, 1, 0x00, 0x00, 16, 1, 0x01, 16, 1,
+0x00, 0x00, 16, 17, 0x01, 16, 17, 0x00, 0x00
+
+//write air mode transparent.
+HCI_Write_Voice_Setting 0x0063
+
+HCI_Vs_Wbs_Associate 0xFD78, 0x1
+
+HCI_Setup_Synchronous_Connection 1, 0x1f40, 0x1f40, 0xE, 0x0063, 0x02, 0x03c8
+To disable WB speech, use this script:
+HCI_Disconnect (0x0406) 0x101, 0x13
+
+HCI_Vs_Wbs_Disassociate 0xFD79
+To re-enable BLE or ANT:
+Disable AVPR: Send_HCI_VS_AVPR_Enable 0xFD92, 0, 0, 0, 0
+Re-load BLE or ANT add-on
+
+
+[Software Setup for Assisted WBS](http://processors.wiki.ti.com/index.php/CC256x_Advanced_Voice_and_Audio_Features#WB_Speech)
 
 More infocan be found on
 

@@ -110,13 +110,6 @@ To make a loop back
 arecord -D  btnokia | aplay -D btnokia
 ```
 
-Wit gstreamser
-
-Install gstreamer support
-
-```
-sudo apt-get install gstreamer-tools bluez-gstreamer
-```
 More readings on
 
 * [Ubuntu Wiki](https://help.ubuntu.com/community/BluetoothHeadset)
