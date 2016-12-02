@@ -27,6 +27,8 @@ $ bluetooth-agent 0000 00:1E:DE:21:D0:85
 Agent has been released
 ```
 
+In embedded targests ```bluetooth-agent``` is named as ```agent```
+
 Next is to create connection to remove device
 
 ```
