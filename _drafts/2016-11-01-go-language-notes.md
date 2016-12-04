@@ -7,6 +7,7 @@ tags: programming language go
 excerpt: Notes on Go language
 ---
 
+* [Go Spec](https://golang.org/ref/spec)
 ## Installation and setup
 
 GOPATH evnrioment variable tells the go tool suite, the location of source code and pkg, this can be changed as per need by user to point diffrent location.
