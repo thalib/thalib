@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Working with Bluetooth Audio in Linux (Part 3)"
+title:  "Bluez A2DP Audio Streaming in Linux"
 date:   2016-11-24 14:50:06
 categories: Linux
 tags: bluetooth bluez
-excerpt: Working with Bluetooth Audio in Linux (Part 3)
+excerpt: Bluez A2DP Audio Streaming in Linux
 ---
 
 Get the bluetooth address of Headset using hcitool command

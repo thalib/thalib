@@ -33,6 +33,9 @@ Bring the bt interface up and give it a name
 ```
 hciconfig hci0 up piscan name thalib-bt
 ```
+
+start the bt dameon in debug mode (for production deployment remove ```-n -d``` )
+
 ```
 bluetoothd -n -d
 ```
