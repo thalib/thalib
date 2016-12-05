@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Working with Bluetooth Audio in Linux (Part 3)"
+title:  "Bluez A2DP Audio Streaming in Linux"
 date:   2016-11-24 14:50:06
 categories: Linux
 tags: bluetooth bluez
-excerpt: Working with Bluetooth Audio in Linux (Part 3)
+excerpt: Bluez A2DP Audio Streaming in Linux
 ---
 
 Get the bluetooth address of Headset using hcitool command
@@ -27,6 +27,8 @@ $ bluetooth-agent 0000 00:1E:DE:21:D0:85
 Agent has been released
 ```
 
+In embedded targets ```bluetooth-agent``` is named as ```agent```
+
 Next is to create connection to remove device
 
 ```
@@ -35,7 +37,7 @@ sudo hcitool cc --role=s 00:1E:DE:21:D0:85
 
 **Note:** Opposite cc is dc ```sudo hcitool dc 00:1E:DE:21:D0:85``` to disconnect the bt device
 
-Then we have to add the device as thrusted
+Then we have to add the device as trusted
 
 ```
 bluez-test-device trusted 00:1E:DE:21:D0:85 yes
@@ -48,7 +50,7 @@ bluez-test-audio connect 00:1E:DE:21:D0:85
 ```
 
 
-You can use **hcitool con** command to check if connection has succeded or not
+You can use **hcitool con** command to check if connection has succeeded or not
 
 ```
 $ hcitool con
@@ -110,13 +112,6 @@ To make a loop back
 arecord -D  btnokia | aplay -D btnokia
 ```
 
-Wit gstreamser
-
-Install gstreamer support
-
-```
-sudo apt-get install gstreamer-tools bluez-gstreamer
-```
 More readings on
 
 * [Ubuntu Wiki](https://help.ubuntu.com/community/BluetoothHeadset)

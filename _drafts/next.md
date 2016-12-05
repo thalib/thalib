@@ -7,7 +7,10 @@ tags: linux embedded
 excerpt: TODO
 ---
 
+## Quote
+Invest in your future
 
+## Farming
 * ஜீவாமிர்தம்
 * பீஜாமிர்தம்
 * கன ஜீவாமிர்தம்
