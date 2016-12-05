@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How To Bluez Headset Profile (HSP) on TI WL1271-TIWI-BLE"
-date:   2016-11-24 14:50:06
+date:   2016-12-05 14:50:06
 categories: Linux
 tags: bluetooth bluez
 excerpt: How To Bluez Headset Profile (HSP) on TI WL1271-TIWI-BLE
