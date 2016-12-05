@@ -27,7 +27,7 @@ $ bluetooth-agent 0000 00:1E:DE:21:D0:85
 Agent has been released
 ```
 
-In embedded targests ```bluetooth-agent``` is named as ```agent```
+In embedded targets ```bluetooth-agent``` is named as ```agent```
 
 Next is to create connection to remove device
 
@@ -37,7 +37,7 @@ sudo hcitool cc --role=s 00:1E:DE:21:D0:85
 
 **Note:** Opposite cc is dc ```sudo hcitool dc 00:1E:DE:21:D0:85``` to disconnect the bt device
 
-Then we have to add the device as thrusted
+Then we have to add the device as trusted
 
 ```
 bluez-test-device trusted 00:1E:DE:21:D0:85 yes
@@ -50,7 +50,7 @@ bluez-test-audio connect 00:1E:DE:21:D0:85
 ```
 
 
-You can use **hcitool con** command to check if connection has succeded or not
+You can use **hcitool con** command to check if connection has succeeded or not
 
 ```
 $ hcitool con

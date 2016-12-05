@@ -9,7 +9,8 @@ excerpt: How To Bluez Headset Profile (HSP) on TI WL1271-TIWI-BLE
 
 I am working with [TI WL1271-TIWI-BLE](http://www.ti.com/product/wl1271-tiwi-ble) which is module. It is connected IMX6 processor via UART.
 
-To initalize the bluetooth toggle the gpio (this step depends on the board/connnection to the bluetooth module)
+
+To initialize the bluetooth toggle the gpio (this step depends on the board/connection to the bluetooth module)
 
 ```
 echo 101 > /sys/class/gpio/export && \
@@ -34,7 +35,7 @@ Bring the bt interface up and give it a name
 hciconfig hci0 up piscan name thalib-bt
 ```
 
-start the bt dameon in debug mode (for production deployment remove ```-n -d``` )
+start the bt daemon in debug mode (for production deployment remove ```-n -d``` )
 
 ```
 bluetoothd -n -d
@@ -48,7 +49,7 @@ hcitool cc --role=s 00:1E:DE:21:D0:85
 ```
 
 
-### Resest chip
+### Reset chip
 
 Here is the simple instruction to reset the bluetoothd service and chip
 
@@ -79,7 +80,7 @@ HCI_VS_Write_SCO_Configuration, 0x00, 100, 0x0
 hcitool cmd 0x3f 0x210 0x01 120 511 0xF
 ```
 
-It also metions about eabling flow control, for me wihout flow control it worked.
+It also mentions about enabling flow control, for me without flow control it worked.
 
 ```
 hcitool cmd 0x3 0x2f 0x01
@@ -106,13 +107,13 @@ SCO audio channel connected (handle 257, mtu 180)
 
 ### Working with BTS
 
-TI provides [BTS](http://processors.wiki.ti.com/index.php/Bluetooth_BTS_files_overview) or Bluetooth Init Script which contains init commands/sequnce for initializing the BT SoC. The BTS files for TiWi-BLE
+TI provides [BTS](http://processors.wiki.ti.com/index.php/Bluetooth_BTS_files_overview) or Bluetooth Init Script which contains init commands/sequence for initializing the BT SoC. The BTS files for TiWi-BLE
 can be [downloaded](https://www.lsr.com/embedded-wireless-modules/wifi-plus-bluetooth-module/tiwi-ble).
 
 Here is how edit bts file
 
 * Download the [http://www.ti.com/tool/wilink-bt_wifi-wireless_tools](HCI tester tool) in order to edit the init scripts(.bts) files.
-* Load and mofify the bts script in HCI tester tool
+* Load and modify the bts script in HCI tester tool
 * Save the new script and copy it onto the Linux SD card in the /lib/firmware/
 
 
