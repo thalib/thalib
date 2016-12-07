@@ -2,7 +2,7 @@
 layout: post
 title:  "The time when your money is not your - Demonetisation of 1000 & 500 Rs"
 date:   2016-11-12 23:05:21
-categories: History
+categories: Events
 tags: india currency 1000 500 rupee
 excerpt: The time when your money is not your - Demonetisation of 1000 & 500 Rs
 ---
