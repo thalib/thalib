@@ -26,6 +26,7 @@ This will create **negative shock** to the nation, this is already felt.
 * Locjam - Oppositions asks Modi to come-up and speak, but Modi absconding. Due to this both parliamentary houses are blocked.
 * 50% Income Tax On Unaccounted Deposits
 * 85% Income Tax If Caught [do not save in your home]
+* India's [Top economists opposing demonetization](http://www.merinews.com/article/pm-modi-should-have-analyzed-that-historically-demonetization-has-in-most-cases-backfired/15921402.shtml) - former Prime Minister of India, Dr Manmohan Singh, former governor of RBI, Raghuram Rajan and Nobel laureate in economics, Amartya Sen.
 
 
 > India Is Rich, But The People Are Poor
