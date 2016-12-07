@@ -7,6 +7,13 @@ tags: programming language go
 excerpt: Notes on Go language
 ---
 
+* [Go Spec](https://golang.org/ref/spec)
+* [Go by examples](https://gobyexample.com)
+* [Effective Go](https://golang.org/doc/effective_go.html)
+* [Build Web Application with Golang](www.gitbook.com/book/astaxie/build-web-application-with-golang/)
+* [The Go Playground](https://play.golang.org)
+
+
 ## Installation and setup
 
 GOPATH evnrioment variable tells the go tool suite, the location of source code and pkg, this can be changed as per need by user to point diffrent location.
