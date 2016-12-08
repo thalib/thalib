@@ -20,3 +20,9 @@ http://www.stack.nl/~dimitri/doxygen/manual/diagrams.html
 https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Callgraph
 https://developer.mozilla.org/en-US/docs/Archive/Mozilla/Treehydra
 https://fedorahosted.org/gcc-python-plugin/
+
+https://gcc.gnu.org/onlinedocs/gcc-3.1/gccint/Passes.html
+https://en.wikibooks.org/wiki/GNU_C_Compiler_Internals/GNU_C_Compiler_Architecture_4_1
+
+```gcc wai.c -fdump-rtl-expand -fdump-tree-all
+```

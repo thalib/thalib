@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "How To Bluez Headset Profile (HSP) on TI WL1271-TIWI-BLE"
+title:  "Bluez Headset Profile Audio Routing via SCO HCI on TI WL1271-TIWI-BLE"
 date:   2016-12-05 14:50:06
 categories: Linux
 tags: bluetooth bluez
-excerpt: How To Bluez Headset Profile (HSP) on TI WL1271-TIWI-BLE
+excerpt: Bluez Headset Profile Audio Routing via SCO HCI on TI WL1271-TIWI-BLE
 ---
 
-I am working with [TI WL1271-TIWI-BLE](http://www.ti.com/product/wl1271-tiwi-ble) which is module. It is connected IMX6 processor via UART.
+This articles expalines how to enable and use Headset Profile with bluez-4.101, the audio is routed via SCO HCI (UART). I am working with [TI WL1271-TIWI-BLE](http://www.ti.com/product/wl1271-tiwi-ble) bluetooth module. It is connected IMX6 processor via UART.
 
 
 To initialize the bluetooth toggle the gpio (this step depends on the board/connection to the bluetooth module)
@@ -35,7 +35,14 @@ Bring the bt interface up and give it a name
 hciconfig hci0 up piscan name thalib-bt
 ```
 
-start the bt daemon in debug mode (for production deployment remove ```-n -d``` )
+Edit the config file /etc/bluetooth/audio.conf and change the setting as below
+
+```
+Enable=Control,Source,Sink,Socket,Media
+Disable=Headset,Gateway
+```
+
+Start the bt daemon in debug mode (Note: for production deployment remove ```-n -d``` )
 
 ```
 bluetoothd -n -d
@@ -47,7 +54,6 @@ Pair/Connect the device
 agent 0000 00:1E:DE:21:D0:85
 hcitool cc --role=s 00:1E:DE:21:D0:85
 ```
-
 
 ### Reset chip
 
@@ -127,13 +133,12 @@ hciconfig hci0 voice 0x0060 up
 
 ### Refrences
 
-
-* [Software Setup for Assisted WBS](http://processors.wiki.ti.com/index.php/CC256x_Advanced_Voice_and_Audio_Features#WB_Speech)
-* [hci commands reference 1](http://www.dziwior.org/Bluetooth/HCI_Commands_Host_Control.html)
-* [hci commands reference 2](http://www.lisha.ufsc.br/teaching/shi/ine5346-2003-1/work/bluetooth/hci_commands.html)
-* [TI Wiki - CC256x_VS_HCI_Commands](http://processors.wiki.ti.com/index.php/CC256x_VS_HCI_Commands)
-* [BLE in WL127xL](http://processors.wiki.ti.com/index.php/BTS_with_BLE_enabled_for_WL127xL)
-* [TI BluetoothLE](http://processors.wiki.ti.com/index.php/Category:BluetoothLE?DCMP=blestack&HQS=ble-wiki)
+* http://processors.wiki.ti.com/index.php/CC256x_Advanced_Voice_and_Audio_Features#WB_Speech
+* http://www.dziwior.org/Bluetooth/HCI_Commands_Host_Control.html
+* http://www.lisha.ufsc.br/teaching/shi/ine5346-2003-1/work/bluetooth/hci_commands.html
+* http://processors.wiki.ti.com/index.php/CC256x_VS_HCI_Commands
+* http://processors.wiki.ti.com/index.php/BTS_with_BLE_enabled_for_WL127xL
+* http://processors.wiki.ti.com/index.php/Category:BluetoothLE?DCMP=blestack&HQS=ble-wiki
 * http://www.funtoo.org/Bluetooth_made_easy
 * https://github.com/pauloborges/bluez/tree/master/test
 * http://nohands.sourceforge.net/config.html

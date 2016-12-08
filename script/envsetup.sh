@@ -26,7 +26,7 @@ function post-cd() {
 }
 
 function post-clean() {
-	rm `find . | grep '~'`
+	find . -iname "*~" -print | xargs rm -vf
 }
 
 function post-update() {
