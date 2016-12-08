@@ -11,7 +11,7 @@ Bluetooth Spec defines [SBC](https://en.wikipedia.org/wiki/SBC_(codec)) (Low Com
 
 SBC is a digital audio encoder and decoder used to transfer data to Bluetooth audio output devices like headphones or loudspeakers.
 
-In Linux here is the command to encode/decode a audio and send it to Bluetooth headset. For conversion a commandline tool named sox (SoX - Sound eXchange, the Swiss Army knife of audio manipulation) will be used.
+In Linux here is the command to encode/decode a audio and send it to Bluetooth headset. For conversion a commandline tool named [sox](https://linux.die.net/man/1/sox) (SoX - Sound eXchange, the Swiss Army knife of audio manipulation) will be used.
 
 ### Convert to/from SBC format
 
