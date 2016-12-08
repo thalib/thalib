@@ -21,11 +21,11 @@ linkedIn_username: mohamedthalib
 # two ways to comment, only choose one, and use your own short name
 # short_name
 duoshuo_shortname:
-disqus_shortname: 
+disqus_shortname: thalib
 
 # statistic analysis
-baidu_tongji_id: 
-google_analytics_id: 
+baidu_tongji_id:
+google_analytics_id:
 
 # Build settings
 markdown: kramdown
