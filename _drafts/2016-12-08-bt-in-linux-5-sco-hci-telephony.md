@@ -45,6 +45,28 @@ Enable=Control,Source,Sink,Headset,Gateway,Socket,Media
 SCORouting=PCM
 ```
 
+Append below configuration to ```~/.asoundrc``` file
+```
+
+pcm.btnokia {
+   type plug
+   slave {
+       pcm {
+           type bluetooth
+           device 00:1E:DE:21:D0:85
+           profile "hfp"
+       }
+   }
+   hint {
+       show on
+       description "Nokia HS"
+   }
+}
+ctl.btnokia {
+  type bluetooth
+}
+```
+
 Start the bt daemon in debug mode (Note: for production deployment remove ```-n -d``` )
 
 ```
@@ -113,6 +135,39 @@ To establish connection with headset
 ./test-telephony connect 00:1E:DE:21:D0:85
 ```
 
+On successfull connect from bluetoothd dameon console
+
+```
+bluetoothd[886]: audio/headset.c:headset_set_state() State changed /org/bluez/886/hci0/dev_00
+_1E_DE_21_D0_85: HEADSET_STATE_DISCONNECTED -> HEADSET_STATE_CONNECTING
+bluetoothd[886]: plugins/mgmtops.c:mgmt_event() cond 1
+bluetoothd[886]: plugins/mgmtops.c:mgmt_event() Received 33 bytes from management socket
+bluetoothd[886]: plugins/mgmtops.c:mgmt_device_connected() hci0 device 00:1E:DE:21:D0:85 conn
+ected eir_len 14
+bluetoothd[886]: src/adapter.c:adapter_get_device() 00:1E:DE:21:D0:85
+bluetoothd[886]: audio/headset.c:headset_set_channel() Discovered Handsfree service on channe l 1
+bluetoothd[886]: audio/headset.c:rfcomm_connect() /org/bluez/886/hci0/dev_00_1E_DE_21_D0_85:
+Connecting to 00:1E:DE:21:D0:85 channel 1
+bluetoothd[886]: audio/headset.c:headset_connect_cb() /org/bluez/886/hci0/dev_00_1E_DE_21_D0_
+85: Connected to 00:1E:DE:21:D0:85
+bluetoothd[886]: audio/headset.c:handle_event() Received AT+BRSF=25
+bluetoothd[886]: audio/headset.c:print_hf_features() HFP HF features: "EC and/or NR function"
+ "Voice recognition activation" "Remote volume control"
+bluetoothd[886]: audio/headset.c:handle_event() Received AT+CIND=?
+bluetoothd[886]: audio/headset.c:handle_event() Received AT+CIND?
+bluetoothd[886]: audio/headset.c:handle_event() Received AT+CMER=3, 0, 0, 1
+bluetoothd[886]: audio/headset.c:event_reporting() Event reporting (CMER): mode=3, ind=1
+bluetoothd[886]: audio/headset.c:hfp_slc_complete() HFP Service Level Connection established
+bluetoothd[886]: audio/telephony.c:telephony_device_connected() telephony-dummy: device 0x377
+2e0 connected
+bluetoothd[886]: audio/headset.c:headset_set_state() State changed /org/bluez/886/hci0/dev_00
+_1E_DE_21_D0_85: HEADSET_STATE_CONNECTING -> HEADSET_STATE_CONNECTED
+bluetoothd[886]: audio/headset.c:handle_event() Received AT+VGS=08
+bluetoothd[886]: audio/headset.c:handle_event() Received AT+VGM=10
+bluetoothd[886]: audio/headset.c:handle_event() Received AT+CSRSF=0,0,0,0,0,7
+bluetoothd[886]: Badly formated or unrecognized command: AT+CSRSF=0,0,0,0,0,7
+```
+
 To disconnect Headset
 ```
 ./test-telephony disconnect 00:1E:DE:21:D0:85
@@ -173,6 +228,29 @@ ET_STATE_PLAYING -> HEADSET_STATE_CONNECTED
 ```
 **Note:** Bluetooth spec uses SBC codec format for transmitting audio between host and device.
 
+### More
+
+get current speaker gain
+
+```
+./test-telephony speakergain 00:1E:DE:21:D0:85
+15
+```
+
+```
+./test-telephony speakergain 00:1E:DE:21:D0:85 15
+```
+
+./test-telephony microphonegain 00:1E:DE:21:D0:85
+10
+
+./test-telephony microphonegain 00:1E:DE:21:D0:85 15
+
+Record/Play audio
+
+arecord -D btnokia ~/hs.sbc
+aplay -D btnokia ~/hs.sbc
+
 ### Reference
 
 * https://github.com/geomatsi/e-notes/blob/master/bluez-howto.txt
@@ -181,3 +259,16 @@ ET_STATE_PLAYING -> HEADSET_STATE_CONNECTED
 * https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/85657
 * https://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/t/272288
 * http://e2e.ti.com/support/wireless_connectivity/wilink_wifi_bluetooth/f/307/p/85657/310250
+http://processors.wiki.ti.com/index.php/CC256x_Advanced_Voice_and_Audio_Features#WB_Speech
+http://processors.wiki.ti.com/index.php/CC256x_Testing_Guide
+https://e2e.ti.com/support/wireless_connectivity/bluetooth_cc256x/f/660/t/309348
+
+## important
+https://e2e.ti.com/support/wireless_connectivity/bluetooth_cc256x/f/660/t/503195
+http://processors.wiki.ti.com/index.php/CC256x_VS_HCI_Commands#HCI_VS_Set_Pcm_Loopback_Enable_.280xFE28.29
+
+configure pcm (Send_HCI_VS_Write_CODEC_Config 0xFD06, 3072, 0x00, 8000, 0x0001, 1, 0x00, 0x00, 16, 0x0001, 1, 16, 0x0001, 0, 0x00, 16, 17, 0x01, 16, 17, 0x00, 0x00)
+hcitool cmd 0x3f 0x106 3072 0x00 8000 0x0001 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00
+
+enable loop back (0xFE28 0x01)
+hcitool cmd 0x3f 0x228 0x01

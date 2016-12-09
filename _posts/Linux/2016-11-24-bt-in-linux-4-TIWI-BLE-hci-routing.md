@@ -83,7 +83,7 @@ Wait_HCI_Command_Complete_VS_Write_SCO_Configuration_Event 5000, any,
 HCI_VS_Write_SCO_Configuration, 0x00, 100, 0x0
 
 ```
-hcitool cmd 0x3f 0x210 0x01 120 511 0xF
+hcitool cmd 0x3f 0x210 0x01 120 511 0xff
 ```
 
 It also mentions about enabling flow control, for me without flow control it worked.
