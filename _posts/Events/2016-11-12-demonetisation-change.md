@@ -9,6 +9,8 @@ excerpt: The time when your money is not your - Demonetisation of 1000 & 500 Rs
 
 The recent demonetisation is collective punishment for honest tax payers, the poor and middle class Indians as a whole. Its impact on curtailing black money will be almost very less, and it will be known over a period of time.
 
+> Black money is leagaly earned money, but on which tax has not been paid.
+
 This will create **negative shock** to the nation, this is already felt.
 
 * Stock market is already crashing
@@ -100,3 +102,35 @@ In a [Facebook post](This is his Facebook post.), Dhillon said,
 > Narrating how his reply removed the man's "nationalism with a jolt," he wrote, "my curt reply removed his deshbhagti with a jolt when I told him that I did that on border for 20 years and standing here to withdraw my pension on that account. He should show his deshbhagti in getting us actual **OROP and CPC** from Modi ji rather than issuing certificates in ATM lines [SIC]."
 
 ![demonetization x army mens reply](http://media2.intoday.in/indiatoday/images/stories//2016November/d_112716022452.png)
+
+### Black Money is Gone
+
+Yes, really the black money is gone, now every thing is white. On 8th Dec, 2016 in a press conference after the monetary policy, R Gandhi, one of the deputy governors of the Reserve Bank of India, said that Rs 11.55 lakh crore (close to 75% of total) of demonetised notes had made it back to the banks. There is more time, till December 30, 2016, convert demonetised notes
+
+This means either
+
+> All money is not black money, and all black money is not in cash.
+
+[or]
+
+> Black money is converted into white, and most Indian's helped to convert black to white (this means people across the country are ingenuien)
+
+It was expected that black money in the form of cash would not submit it to the banks for the fear of generation of an audit trail. And this is how black money would be destroyed.
+
+This also shows that **Indians** are smarter and clever than top govt. and officials.
+
+The people who converted black to white should thank Modiji, yes he earlier created scheeme called [Pradhan Mantri Jan-Dhan Yojana](https://en.wikipedia.org/wiki/Pradhan_Mantri_Jan_Dhan_Yojana) and- created Jan Dhan accounts every one, without Jan Dhan accounts it would be very difficult to convert the black to white.
+
+> Demonetisation is The **Biggest Failed Economic Experiment** in Indian History
+
+Next what..> Go Cashlessssssss
+
+Like this govt. biggest failure schemes like Make in India and Skill India, demonetisation will also become a big failure.
+
+Lets wait and watch - because its not just over, but the worst may yet to come.
+
+> 'It's easier to fool people than to convince them that they have been fooled.' - Mark Twain
+
+### Go Cashless
+
+On 8th Nov, the government maded Rs 500 and Rs 1000 notes illegal. The intention was to curb black money, but now it looks diffrent or it is drifting away to terrorist funding,  then now to casheless economy.
