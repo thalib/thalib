@@ -134,3 +134,22 @@ Lets wait and watch - because its not just over, but the worst may yet to come.
 ### Go Cashless
 
 On 8th Nov, the government maded Rs 500 and Rs 1000 notes illegal. The intention was to curb black money, but now it looks diffrent or it is drifting away to terrorist funding,  then now to casheless economy.
+
+### Bank Staffs and Employees are new ScapeGoat
+
+Today I came across below news, bank employees are crying **I am not one of them**
+
+* [Bank Employees are Black Money Exchangers ](http://timesofindia.indiatimes.com/business/india-business/raids-at-branches-impacting-morale-say-bankers-efforts-on-to-reach-out-to-staff/articleshow/56013481.cms
+)
+* [If There’s A Scam, There Must Be A Banker In It Somewhere](http://swarajyamag.com/economy/demonetisations-lesson-if-theres-a-scam-there-must-be-a-banker-in-it-somewhere)
+
+All the best, let the game continue.
+
+### After math
+* [9 of 10 cards used at ATMs to withdraw, not for purchases](http://dhunt.in/1Krnq)
+* [Stretched, banks complain: Being made villain of the piece](http://dhunt.in/1KTsg)
+* [Slowdown signal: 16 top firms show sharp dip in advance tax](http://dhunt.in/1KTsh)
+* [Decoding post-demonetisation boom in the Jan Dhan balance](http://dhunt.in/1Hse8)
+* [Demonetisation's rude shock: There may not be any black money](http://dhunt.in/1I1Qz)
+* [Onion Rates Halve, Farmers Have No Cash, Can't Go Cashless](http://dhunt.in/1KU7l)
+* [Vadde calls Modi Modern Day Tughlaq](http://dhunt.in/1KTRE)
