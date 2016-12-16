@@ -32,7 +32,7 @@ Was lakshare-e thoiba or IM all went on vacation this year ?
 
 This is evidence Muslims are falsely accused for all the terror strikes in India, only the peoples those who have brain can understand. It used be norm for media telling all Muslims are terrorists.
 
-Today I came across similar incident says Not all
+Today I came across similar incident says
 
 * [Bank Employees are Black Money Exchangers ](http://timesofindia.indiatimes.com/business/india-business/raids-at-branches-impacting-morale-say-bankers-efforts-on-to-reach-out-to-staff/articleshow/56013481.cms
 )
