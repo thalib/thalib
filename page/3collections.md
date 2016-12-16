@@ -15,6 +15,7 @@ icon: bookmark
 * [https://www.coursera.org](https://www.coursera.org)
 * [https://www.freecodecamp.com](https://www.freecodecamp.com)
 * [http://engineertech.org](http://engineertech.org)
+* [Linux Insides](https://github.com/0xAX/linux-insides/)
 
 ### Farming Resource
 
