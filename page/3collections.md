@@ -16,6 +16,7 @@ icon: bookmark
 * [https://www.freecodecamp.com](https://www.freecodecamp.com)
 * [http://engineertech.org](http://engineertech.org)
 * [Linux Insides](https://github.com/0xAX/linux-insides/)
+* [SourceMaking.com](https://sourcemaking.com/)
 
 ### Farming Resource
 

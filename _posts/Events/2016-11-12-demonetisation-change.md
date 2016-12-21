@@ -145,6 +145,14 @@ Today I came across below news, bank employees are crying **I am not one of them
 
 All the best, let the game continue.
 
+### New notes are easier to
+
+The govt said, the new notes will abolish the black curreny, but the reality is it is easy to make fake notes, all you need is a color coppier
+
+* [4 held with photocopies of Rs 2000 notes](http://www.deccanchronicle.com/nation/crime/211216/bengaluru-4-arrested-for-using-photocopy-of-new-rs-2000-notes.html)
+* [Bengaluru: 4 arrested for using photocopy of new Rs 2,000 notes](http://www.newindianexpress.com/cities/bengaluru/2016/dec/21/4-held-with-photocopies-of-rs-2k-notes-1551465.html)
+
+
 ### After math
 * [9 of 10 cards used at ATMs to withdraw, not for purchases](http://dhunt.in/1Krnq)
 * [Stretched, banks complain: Being made villain of the piece](http://dhunt.in/1KTsg)
@@ -153,3 +161,4 @@ All the best, let the game continue.
 * [Demonetisation's rude shock: There may not be any black money](http://dhunt.in/1I1Qz)
 * [Onion Rates Halve, Farmers Have No Cash, Can't Go Cashless](http://dhunt.in/1KU7l)
 * [Vadde calls Modi Modern Day Tughlaq](http://dhunt.in/1KTRE)
+* [Lack of preparedness by govt led to cash crisis, admits Subramanian Swamy](http://indianexpress.com/article/india/demonetisation-bjp-subramanian-swamy-cash-crunch-4433960/)
