@@ -9,11 +9,15 @@ excerpt: Books and Resource on Go Language Books List
 
 Go (aka golang) created at Google is quickly becoming popular because of the language features, Go has the possibility of replacing C language, and making the popular languages absolute (like Python, Java, R, etc.). Here are some resource and books that I came across.
 
-### Official Website
+### Website
 
 * [golang.org/](https://golang.org/)
 * [https://github.com/golang/go](https://github.com/golang/go)
 * [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))
+
+[And]
+
+* [Go Package Search](http://go-search.org)
 
 ### Books and Resources
 

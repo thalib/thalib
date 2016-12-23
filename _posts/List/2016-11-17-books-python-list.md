@@ -16,3 +16,4 @@ excerpt: Books - Python Books List
 More resource
 
 * [http://www.fromdev.com/2014/03/python-tutorials-resources.html](http://www.fromdev.com/2014/03/python-tutorials-resources.html)
+* [awesome-python.com](https://awesome-python.com/)

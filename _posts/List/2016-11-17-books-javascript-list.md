@@ -24,3 +24,6 @@ excerpt: Books - Javacript Books List
 * [Developing Backbone.js Applications](https://addyosmani.com/backbone-fundamentals/)
 * [Your First Meteor Application](http://meteortips.com/first-meteor-tutorial/)
 * [jQuery Trickshots](http://tutorialzine.com/books/jquery-trickshots/)
+* [You might not need Javascript](http://youmightnotneedjs.com)
+* [You might not need jQuery](http://youmightnotneedjquery.com)
+* [Egghead.io - Video tutorials for badass web developers](https://egghead.io)
