@@ -2,8 +2,8 @@
 layout: post
 title:  "Quote - Learn from others mistakes"
 date:   2016-11-19 07:25:57
-categories: General
-tags: quote
+categories: Quote
+tags: learn mistake
 excerpt: Quote - Learn from others mistakes
 ---
 

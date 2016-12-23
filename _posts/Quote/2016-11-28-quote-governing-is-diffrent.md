@@ -2,8 +2,8 @@
 layout: post
 title:  "Quote - Campaigning is different than governing"
 date:   2016-11-22 22:25:57
-categories: General
-tags: quote
+categories: Quote
+tags: governing
 excerpt: Quote - Campaigning is different than governing
 ---
 

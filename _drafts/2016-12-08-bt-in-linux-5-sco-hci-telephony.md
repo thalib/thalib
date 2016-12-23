@@ -272,3 +272,53 @@ hcitool cmd 0x3f 0x106 3072 0x00 8000 0x0001 1 0x00 0x00 16 0x0001 1 16 0x0001 0
 
 enable loop back (0xFE28 0x01)
 hcitool cmd 0x3f 0x228 0x01
+
+## Driver
+
+### Pin MUX
+
+AUD5_TXC - KEY_COL0		MX6QDL_PAD_KEY_COL0__AUD5_TXC
+AUD5_TXFS - KEY_COL1	MX6QDL_PAD_KEY_COL1__AUD5_TXFS
+AUD5_TXD - KEY_ROW0		MX6QDL_PAD_KEY_ROW0__AUD5_TXD
+AUD5_RXD - KEY_ROW1		MX6QDL_PAD_KEY_ROW1__AUD5_RXD
+
+
+### Network
+
+ifconfig eth0 192.168.6.142 up
+
+
+### Commands
+
+sound/soc/fsl/snd-soc-imx-btlsr.ko
+sound/soc/codecs/snd-soc-bt-sco.ko
+
+scp sound/soc/fsl/snd-soc-imx-btlsr.ko sound/soc/codecs/snd-soc-bt-sco.ko root@192.168.6.142:
+
+rmmod snd-soc-imx-btlsr.ko && rmmod snd-soc-bt-sco.ko
+
+insmod snd-soc-bt-sco.ko && insmod snd-soc-imx-btlsr.ko
+
+ls /sys/kernel/debug/audmux/
+cat /sys/kernel/debug/audmux/ssi1
+cat /sys/kernel/debug/audmux/ssi4
+
+### Testing
+
+aplay -Dhw:2,0 /lib/firmware/bluez4-scripts/test.sbc
+arecord -Dhw:2,0 | aplay -Dhw:2,0
+
+ cat /dev/urandom | aplay -f U8 -Dhw:2,0
+
+https://en.wikibooks.org/wiki/Configuring_Sound_on_Linux/ALSA/Troubleshooting
+http://xmodulo.com/how-to-capture-microphone-input-to-wav-format-file.html
+## Uboot
+
+scp arch/arm/boot/dts/imx6s-esomimx6-ldo.dtb root@192.168.6.142:/media/mmcblk1p1/
+
+setenv mmc_dev 1
+fatload mmc ${mmc_dev} ${loadaddr} uImage;
+fatload mmc ${mmc_dev} ${fdt_addr} ${fdt_file};fi;bootm ${loadaddr} - ${fd
+t_addr}
+
+cp imx6s-esomimx6-ldo.dtb /media/mmcblk1p1/imx6s-esomimx6-ldo.dtb

@@ -2,8 +2,8 @@
 layout: post
 title:  "Quote - Why Should Protect Your Privacy"
 date:   2016-11-14 07:25:57
-categories: General
-tags: quote
+categories: Quote
+tags: privacy
 excerpt: Quote - Why Should Protect Your Privacy
 ---
 
