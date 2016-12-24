@@ -17,7 +17,8 @@ Go (aka golang) created at Google is quickly becoming popular because of the lan
 
 [And]
 
-* [Go Package Search](http://go-search.org)
+* [go-search.org - Go Package Search](http://go-search.org)
+* [golanglibs.com - Go Libriries Search](https://golanglibs.com)
 
 ### Books and Resources
 

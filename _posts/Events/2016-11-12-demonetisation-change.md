@@ -162,3 +162,4 @@ The govt said, the new notes will abolish the black curreny, but the reality is 
 * [Onion Rates Halve, Farmers Have No Cash, Can't Go Cashless](http://dhunt.in/1KU7l)
 * [Vadde calls Modi Modern Day Tughlaq](http://dhunt.in/1KTRE)
 * [Lack of preparedness by govt led to cash crisis, admits Subramanian Swamy](http://indianexpress.com/article/india/demonetisation-bjp-subramanian-swamy-cash-crunch-4433960/)
+* [Demonetisation as flawed as Indira's emergency move: P Chidambaram](http://www.business-standard.com/article/economy-policy/demonetisation-as-flawed-as-indira-gandhi-s-emergency-move-p-chidambaram-116122301264_1.html)
