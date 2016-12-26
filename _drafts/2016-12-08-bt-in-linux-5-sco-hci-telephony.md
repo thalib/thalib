@@ -322,3 +322,11 @@ fatload mmc ${mmc_dev} ${fdt_addr} ${fdt_file};fi;bootm ${loadaddr} - ${fd
 t_addr}
 
 cp imx6s-esomimx6-ldo.dtb /media/mmcblk1p1/imx6s-esomimx6-ldo.dtb
+
+### Debuging
+https://e2e.ti.com/support/arm/sitara_arm/f/791/t/388471
+arecord: pcm_read:2039: read error: Input/output error
+
+
+https://bbs.archlinux.org/viewtopic.php?id=174152
+http://mailman.alsa-project.org/pipermail/alsa-devel/2014-September/081408.html

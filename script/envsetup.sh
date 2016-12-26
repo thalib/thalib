@@ -33,3 +33,7 @@ function post-update() {
 	git commit -a -s -m "Updated"
 	git push origin master
 }
+
+function post-sync() {
+	git pull origin master
+}
