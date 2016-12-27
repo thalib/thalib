@@ -139,33 +139,7 @@ On successfull connect from bluetoothd dameon console
 
 ```
 bluetoothd[886]: audio/headset.c:headset_set_state() State changed /org/bluez/886/hci0/dev_00
-_1E_DE_21_D0_85: HEADSET_STATE_DISCONNECTED -> HEADSET_STATE_CONNECTING
-bluetoothd[886]: plugins/mgmtops.c:mgmt_event() cond 1
-bluetoothd[886]: plugins/mgmtops.c:mgmt_event() Received 33 bytes from management socket
-bluetoothd[886]: plugins/mgmtops.c:mgmt_device_connected() hci0 device 00:1E:DE:21:D0:85 conn
-ected eir_len 14
-bluetoothd[886]: src/adapter.c:adapter_get_device() 00:1E:DE:21:D0:85
-bluetoothd[886]: audio/headset.c:headset_set_channel() Discovered Handsfree service on channe l 1
-bluetoothd[886]: audio/headset.c:rfcomm_connect() /org/bluez/886/hci0/dev_00_1E_DE_21_D0_85:
-Connecting to 00:1E:DE:21:D0:85 channel 1
-bluetoothd[886]: audio/headset.c:headset_connect_cb() /org/bluez/886/hci0/dev_00_1E_DE_21_D0_
-85: Connected to 00:1E:DE:21:D0:85
-bluetoothd[886]: audio/headset.c:handle_event() Received AT+BRSF=25
-bluetoothd[886]: audio/headset.c:print_hf_features() HFP HF features: "EC and/or NR function"
- "Voice recognition activation" "Remote volume control"
-bluetoothd[886]: audio/headset.c:handle_event() Received AT+CIND=?
-bluetoothd[886]: audio/headset.c:handle_event() Received AT+CIND?
-bluetoothd[886]: audio/headset.c:handle_event() Received AT+CMER=3, 0, 0, 1
-bluetoothd[886]: audio/headset.c:event_reporting() Event reporting (CMER): mode=3, ind=1
-bluetoothd[886]: audio/headset.c:hfp_slc_complete() HFP Service Level Connection established
-bluetoothd[886]: audio/telephony.c:telephony_device_connected() telephony-dummy: device 0x377
-2e0 connected
-bluetoothd[886]: audio/headset.c:headset_set_state() State changed /org/bluez/886/hci0/dev_00
 _1E_DE_21_D0_85: HEADSET_STATE_CONNECTING -> HEADSET_STATE_CONNECTED
-bluetoothd[886]: audio/headset.c:handle_event() Received AT+VGS=08
-bluetoothd[886]: audio/headset.c:handle_event() Received AT+VGM=10
-bluetoothd[886]: audio/headset.c:handle_event() Received AT+CSRSF=0,0,0,0,0,7
-bluetoothd[886]: Badly formated or unrecognized command: AT+CSRSF=0,0,0,0,0,7
 ```
 
 To disconnect Headset

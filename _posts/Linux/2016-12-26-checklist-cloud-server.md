@@ -7,23 +7,30 @@ tags: security cloud server admin checklist
 excerpt: Check list to secure the cloud server
 ---
 
-Step to secure the cloud server
+Here are the important steps to secure the cloud server, a.k.a server hardening
 
 * Update OS (```apt-get update && apt-get dist-upgrade```)
 * Enable SSH Key Authentication
 * Disable Root SSH login
 * Disable SSH pasword login
+* Change SSH port
+* Prepare the list of packages installed
+* Remove unwanted software/packages
+* Disable Unwanted users
 * Install Firewall (ufw)
+* Use SELinux if you are expert in SELinux
 * Close unused ports
-* Setup VPN if possible
+* Setup VPN if possible, for communication between your dev PC and server
 * Set proper file permissions
 * Run audits and verfiy preiodicaly (port, service and files)
-* Sandbox services (using docker, chroot, etc.,)
-
+* Sandbox services (using docker, chroot, etc.)
+* Harden PHP (if used)
 
 Refrences from
 
-* [Ubuntu Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04)
+https://cisofy.com/lynis/
+
+* [Basic Ubuntu Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04)
 * [Enable SSH](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers)
 * [UFW](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
 * [UFW Rules](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
