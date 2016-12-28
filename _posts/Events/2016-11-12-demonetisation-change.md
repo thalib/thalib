@@ -163,3 +163,4 @@ The govt said, the new notes will abolish the black curreny, but the reality is 
 * [Vadde calls Modi Modern Day Tughlaq](http://dhunt.in/1KTRE)
 * [Lack of preparedness by govt led to cash crisis, admits Subramanian Swamy](http://indianexpress.com/article/india/demonetisation-bjp-subramanian-swamy-cash-crunch-4433960/)
 * [Demonetisation as flawed as Indira's emergency move: P Chidambaram](http://www.business-standard.com/article/economy-policy/demonetisation-as-flawed-as-indira-gandhi-s-emergency-move-p-chidambaram-116122301264_1.html)
+* [90 per cent of scrapped notes back in system, no black money in the contry](http://economictimes.indiatimes.com/news/economy/90-per-cent-of-scrapped-notes-back-in-system-big-dividend-unlikely/articleshow/56211433.cms)

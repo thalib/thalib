@@ -238,8 +238,15 @@ http://processors.wiki.ti.com/index.php/CC256x_Testing_Guide
 https://e2e.ti.com/support/wireless_connectivity/bluetooth_cc256x/f/660/t/309348
 
 ## important
+http://www.spinics.net/lists/alsa-devel/msg34243.html
+
+http://lxr.free-electrons.com/source/include/sound/soc-dai.h?v=3.14
+
 https://e2e.ti.com/support/wireless_connectivity/bluetooth_cc256x/f/660/t/503195
+
 http://processors.wiki.ti.com/index.php/CC256x_VS_HCI_Commands#HCI_VS_Set_Pcm_Loopback_Enable_.280xFE28.29
+
+
 
 configure pcm (Send_HCI_VS_Write_CODEC_Config 0xFD06, 3072, 0x00, 8000, 0x0001, 1, 0x00, 0x00, 16, 0x0001, 1, 16, 0x0001, 0, 0x00, 16, 17, 0x01, 16, 17, 0x00, 0x00)
 hcitool cmd 0x3f 0x106 3072 0x00 8000 0x0001 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00
@@ -278,11 +285,15 @@ cat /sys/kernel/debug/audmux/ssi1
 cat /sys/kernel/debug/audmux/ssi4
 
 ### Testing
+https://community.nxp.com/thread/327096
 
 aplay -Dhw:2,0 /lib/firmware/bluez4-scripts/test.sbc
 arecord -Dhw:2,0 | aplay -Dhw:2,0
 
- cat /dev/urandom | aplay -f U8 -Dhw:2,0
+arecord  -fS16_LE -t raw -Dhw:2,0  in.rec
+cat /dev/urandom | aplay -f S16_LE -t raw -Dhw:2,0
+
+arecord -D hw:0,0 -c 2 -f S16_LE -r 8000 -t raw | aplay -D hw:0,0 -c 2 -f S16_LE  -r 8000 -v
 
 https://en.wikibooks.org/wiki/Configuring_Sound_on_Linux/ALSA/Troubleshooting
 http://xmodulo.com/how-to-capture-microphone-input-to-wav-format-file.html
