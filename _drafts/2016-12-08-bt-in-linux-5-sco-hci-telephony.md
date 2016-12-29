@@ -70,7 +70,7 @@ ctl.btnokia {
 Start the bt daemon in debug mode (Note: for production deployment remove ```-n -d``` )
 
 ```
-bluetoothd -n -d
+bluetoothd -n -d &
 ```
 
 Pair/Connect the device
@@ -94,7 +94,7 @@ echo high > /sys/class/gpio/gpio101/direction
 
 hciattach -t 30 -s 115200 /dev/ttymxc2 texas 3000000 flow && \
 hciconfig hci0 up && \
-bluetoothd -d -n
+bluetoothd -d -n&
 
 agent 0000 00:1E:DE:21:D0:85
 hcitool cc --role=s 00:1E:DE:21:D0:85
@@ -132,7 +132,7 @@ Usage: ./test-telephony <command>
 To establish connection with headset
 
 ```
-./test-telephony connect 00:1E:DE:21:D0:85
+bluez4-scripts/test-telephony connect 00:1E:DE:21:D0:85
 ```
 
 On successfull connect from bluetoothd dameon console
@@ -144,14 +144,14 @@ _1E_DE_21_D0_85: HEADSET_STATE_CONNECTING -> HEADSET_STATE_CONNECTED
 
 To disconnect Headset
 ```
-./test-telephony disconnect 00:1E:DE:21:D0:85
+bluez4-scripts/test-telephony disconnect 00:1E:DE:21:D0:85
 ```
 ### Play/Record Audio on Headset
 
 Put headset in play mode
 
 ```
-./test-telephony play 00:1E:DE:21:D0:85
+bluez4-scripts/test-telephony play 00:1E:DE:21:D0:85
 ```
 on successfull connection you need get below message from bluetoothd terminal
 
@@ -190,7 +190,7 @@ arecord -D hw:2,0 | aplay -D hw:2,0
 Turn off headset play mode
 
 ```
-./test-telephony stop 00:1E:DE:21:D0:85
+bluez4-scripts/test-telephony stop 00:1E:DE:21:D0:85
 ```
 
 on successfull stop you need get below message from bluetoothd terminal
@@ -249,7 +249,10 @@ http://processors.wiki.ti.com/index.php/CC256x_VS_HCI_Commands#HCI_VS_Set_Pcm_Lo
 
 
 configure pcm (Send_HCI_VS_Write_CODEC_Config 0xFD06, 3072, 0x00, 8000, 0x0001, 1, 0x00, 0x00, 16, 0x0001, 1, 16, 0x0001, 0, 0x00, 16, 17, 0x01, 16, 17, 0x00, 0x00)
+default
 hcitool cmd 0x3f 0x106 3072 0x00 8000 0x0001 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00
+
+hcitool cmd 0x3f 0x106 512 0x00 8000 0x0032 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00
 
 enable loop back (0xFE28 0x01)
 hcitool cmd 0x3f 0x228 0x01
@@ -287,6 +290,9 @@ cat /sys/kernel/debug/audmux/ssi4
 ### Testing
 https://community.nxp.com/thread/327096
 
+scp root@192.168.6.142:/etc/asound.conf .
+scp root@192.168.6.142:.asoundrc  asoundrc
+
 aplay -Dhw:2,0 /lib/firmware/bluez4-scripts/test.sbc
 arecord -Dhw:2,0 | aplay -Dhw:2,0
 
@@ -298,6 +304,8 @@ arecord -D hw:0,0 -c 2 -f S16_LE -r 8000 -t raw | aplay -D hw:0,0 -c 2 -f S16_LE
 https://en.wikibooks.org/wiki/Configuring_Sound_on_Linux/ALSA/Troubleshooting
 http://xmodulo.com/how-to-capture-microphone-input-to-wav-format-file.html
 ## Uboot
+
+
 
 scp arch/arm/boot/dts/imx6s-esomimx6-ldo.dtb root@192.168.6.142:/media/mmcblk1p1/
 
@@ -315,3 +323,12 @@ arecord: pcm_read:2039: read error: Input/output error
 
 https://bbs.archlinux.org/viewtopic.php?id=174152
 http://mailman.alsa-project.org/pipermail/alsa-devel/2014-September/081408.html
+
+http://www.alsa-project.org/alsa-doc/alsa-lib/pcm_plugins.html
+http://askubuntu.com/questions/195485/how-to-list-arecords-available-formats
+https://en.wikipedia.org/wiki/I²S
+https://e2e.ti.com/support/wireless_connectivity/bluetooth_cc256x/f/660/t/503195
+https://e2e.ti.com/support/wireless_connectivity/bluetooth_cc256x/f/660/t/364502
+https://gforge.ti.com/gf/download/docmanfileversion/623/7881/CODEC_PCM_loopback.txt/open
+
+https://github.com/bluekitchen/btstack/blob/master/chipset/cc256x/btstack_chipset_cc256x.c
