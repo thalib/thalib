@@ -26,9 +26,17 @@ Here are the important steps to secure the cloud server, a.k.a server hardening
 * Sandbox services (using docker, chroot, etc.)
 * Harden PHP (if used)
 
+### Tools and Software
+
+There are the some of the tools and software to automate the security
+
+* [fail2ban](http://www.fail2ban.org)
+* [lynis](https://cisofy.com/lynis/)
+* [heatsheild](https://heatshield.io)
+
 Refrences from
 
-https://cisofy.com/lynis/
+
 
 * [Basic Ubuntu Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04)
 * [Enable SSH](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers)
