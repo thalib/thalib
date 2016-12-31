@@ -90,14 +90,13 @@ killall -9 bluetoothd ; \
 killall -9 hciattach
 
 echo low > /sys/class/gpio/gpio101/direction && sleep 1 && \
-echo high > /sys/class/gpio/gpio101/direction
+echo high > /sys/class/gpio/gpio101/direction && sleep 1 && \
+hciattach -t 30 -s 115200 /dev/ttymxc2 texas 3000000 flow &&  sleep 1 && \
+hciconfig hci0 up && sleep 1 && \
+bluetoothd -d -n &
 
-hciattach -t 30 -s 115200 /dev/ttymxc2 texas 3000000 flow && \
-hciconfig hci0 up && \
-bluetoothd -d -n&
 
-agent 0000 00:1E:DE:21:D0:85
-hcitool cc --role=s 00:1E:DE:21:D0:85
+agent 0000 00:1E:DE:21:D0:85 && hcitool cc --role=s 00:1E:DE:21:D0:85
 ```
 
 ### Important Note

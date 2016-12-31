@@ -34,25 +34,72 @@ There are the some of the tools and software to automate the security
 * [lynis](https://cisofy.com/lynis/)
 * [heatsheild](https://heatshield.io)
 
-Refrences from
+### Use Secure Password
+
+A good password should have
+
+* At Least 8 Characters Long — (longer is better).
+* Upper Case Letters
+* Lower Case Letters
+* Numbers
+* Special characters
+
+> The best password in the world does little good if you cannot remember it
+
+use acronyms or other mnemonic devices to aid in memorizing passwords.
+
+Also enforce Password Aging (using ```chage -M 90 <username>```)
+
+### Secure Root User
+
+* **Disable root user login**: edit ```/etc/passwd``` file and change the shell of root from ```/bin/bash``` to ```/sbin/nologin```.
+
+* **Disabling root SSH logins**: edit the ```/etc/ssh/sshd_config``` file and set the ```PermitRootLogin``` parameter to ```no```.
+
+### Securing Ports
+
+Make sure there is no service runs without your knowledge. It is a must to audit the network ports which are open/used, and ensure it’s listening on the correct network port.
+
+You can use ```netstat``` command to list down the services and its associated ports used
+
+```
+$ sudo netstat -plnt
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      16772/nginx -g daem
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1400/sshd
+tcp6       0      0 :::80                   :::*                    LISTEN      16772/nginx -g daem
+tcp6       0      0 :::22                   :::*                    LISTEN      1400/sshd
+```
+
+Another command to use is ```lsof```, this command will list previliage of a port
+
+```
+$ sudo lsof -i TCP| fgrep LISTEN
+sshd     1400     root    3u  IPv4  13851      0t0  TCP *:ssh (LISTEN)
+sshd     1400     root    4u  IPv6  13941      0t0  TCP *:ssh (LISTEN)
+nginx   16772     root    6u  IPv4 262165      0t0  TCP *:http (LISTEN)
+nginx   16772     root    7u  IPv6 262166      0t0  TCP *:http (LISTEN)
+nginx   16773 www-data    6u  IPv4 262165      0t0  TCP *:http (LISTEN)
+nginx   16773 www-data    7u  IPv6 262166      0t0  TCP *:http (LISTEN)
+```
+
+### Application securing
+
+* Password cracking
+* URL manipulation through HTTP GET methods
+* SQL Injection
+* Cross Site Scripting (XSS)
 
 
+### Reference
 
-* [Basic Ubuntu Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04)
-* [Enable SSH](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers)
-* [UFW](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
-* [UFW Rules](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
-* [Install nginx](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-14-04-lts)
-* [Host name](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean)
-* Git deploy from [github](https://www.sitepoint.com/deploying-from-github-to-a-server/), [bitbucket](https://support.deployhq.com/articles/deployments/how-do-i-start-an-automatic-deployment-from-bitbucket)
-* [php setup](https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04)
-* [lemp setup](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04)
-
-https://bitbucket.org/atlassianlabs/webhook-listener/src
-https://bitbucket.org/lilliputten/automatic-bitbucket-deploy/
-http://www.bluehost.in/devcloud?chan=ga_se_devcloud_do&ad=ga_se_devcloud_do&cmp=Comp_DevCloud_DO(S)&kw=Digitalocean&mt=e&adg=Digital_Ocean_-Gen&adid=165279959252&coupon=&a_aid=8a10h1801b&gclid=COWA2c6kkdECFdWKaAodss8K5g
-
-https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
-https://www.atlassian.com/continuous-delivery/git-hooks-continuous-integration
-http://brandonsummers.name/blog/2012/02/10/using-bitbucket-for-automated-deployments/
-https://www.sitepoint.com/deploying-from-github-to-a-server/
+* https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/3/html/Security_Guide/index.html
+* https://support.rackspace.com/how-to/basic-cloud-server-security/
+* http://serverfault.com/questions/214242/can-i-hide-all-server-os-info
+* https://suhosin.org/stories/index.html
+* https://en.wikipedia.org/wiki/Penetration_test
+* https://rudd-o.com/linux-and-free-software/a-better-way-to-block-brute-force-attacks-on-your-ssh-server
+* https://www.rackaid.com/blog/how-to-block-ssh-brute-force-attacks/
+* https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-12-04
+* https://www.rackaid.com/blog/how-to-harden-or-secure-ssh-for-improved-security/
