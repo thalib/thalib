@@ -32,6 +32,8 @@ Bring the bt interface up and give it a name
 
 ```
 hciconfig hci0 up piscan name thalib-bt
+
+hciconfig hci0 up
 ```
 
 Edit the config file /etc/bluetooth/audio.conf and change the setting as below
@@ -76,7 +78,22 @@ bluetoothd -n -d &
 Pair/Connect the device
 
 ```
-agent 0000 00:1E:DE:21:D0:85
+agent 0000 00:1E:DE:21:D0:85 && \
+hcitool cc --role=s 00:1E:DE:21:D0:85
+```
+
+### Quick Connect
+
+```
+echo 101 > /sys/class/gpio/export && \
+echo low > /sys/class/gpio/gpio101/direction && sleep 1 && \
+echo high > /sys/class/gpio/gpio101/direction
+
+hciattach -t 30 -s 115200 /dev/ttymxc2 texas 3000000 flow &&  sleep 1 && \
+hciconfig hci0 up && sleep 1 && \
+bluetoothd -n -d &
+
+agent 0000 00:1E:DE:21:D0:85 && \
 hcitool cc --role=s 00:1E:DE:21:D0:85
 ```
 
@@ -137,8 +154,7 @@ bluez4-scripts/test-telephony connect 00:1E:DE:21:D0:85
 On successfull connect from bluetoothd dameon console
 
 ```
-bluetoothd[886]: audio/headset.c:headset_set_state() State changed /org/bluez/886/hci0/dev_00
-_1E_DE_21_D0_85: HEADSET_STATE_CONNECTING -> HEADSET_STATE_CONNECTED
+HEADSET_STATE_CONNECTING -> HEADSET_STATE_CONNECTED
 ```
 
 To disconnect Headset
@@ -155,13 +171,7 @@ bluez4-scripts/test-telephony play 00:1E:DE:21:D0:85
 on successfull connection you need get below message from bluetoothd terminal
 
 ```
-bluetoothd[880]: audio/headset.c:headset_set_state() State changed /org/bluez/880/hci0/dev_00_1E_DE_21_D0_85: HEADS
-ET_STATE_CONNECTED -> HEADSET_STATE_PLAY_IN_PROGRESS
-bluetoothd[880]: audio/headset.c:sco_connect_cb() SCO socket opened for headset /org/bluez/880/hci0/dev_00_1E_DE_21
-_D0_85
-bluetoothd[880]: audio/headset.c:sco_connect_cb() SCO fd=22
-bluetoothd[880]: audio/headset.c:headset_set_state() State changed /org/bluez/880/hci0/dev_00_1E_DE_21_D0_85: HEADS
-ET_STATE_PLAY_IN_PROGRESS -> HEADSET_STATE_PLAYING
+HEADSET_STATE_PLAY_IN_PROGRESS -> HEADSET_STATE_PLAYING
 ```
 
 to play audio to headset
@@ -246,11 +256,13 @@ https://e2e.ti.com/support/wireless_connectivity/bluetooth_cc256x/f/660/t/503195
 http://processors.wiki.ti.com/index.php/CC256x_VS_HCI_Commands#HCI_VS_Set_Pcm_Loopback_Enable_.280xFE28.29
 
 
-
+## default/ working
 configure pcm (Send_HCI_VS_Write_CODEC_Config 0xFD06, 3072, 0x00, 8000, 0x0001, 1, 0x00, 0x00, 16, 0x0001, 1, 16, 0x0001, 0, 0x00, 16, 17, 0x01, 16, 17, 0x00, 0x00)
-default
+
 hcitool cmd 0x3f 0x106 3072 0x00 8000 0x0001 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00
 
+
+## Tests
 hcitool cmd 0x3f 0x106 512 0x00 8000 0x0032 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00
 
 enable loop back (0xFE28 0x01)
