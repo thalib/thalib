@@ -2,7 +2,7 @@
 layout: post
 title:  "Books - Desing Patterns Books List"
 date:   2016-11-21 07:47:21
-categories: General
+categories: List
 tags: books
 excerpt: Books - Desing Patterns Books List
 ---

@@ -204,6 +204,10 @@ http://askubuntu.com/questions/443775/nginx-failing-to-reload-how-to-track-down-
 http://stackoverflow.com/questions/18587638/how-do-i-restart-nginx-only-after-the-config-test-was-successful-on-ubuntu
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-14-04-lts
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04
+https://www.digitalocean.com/community/tutorials/how-to-add-the-gzip-module-to-nginx-on-ubuntu-14-04
+http://blog.ansals.me/2015/12/22/setting-expires-header-in-nginx/
+https://www.digitalocean.com/community/tutorials/how-to-implement-browser-caching-with-nginx-s-header-module-on-ubuntu-16-04
+http://kbeezie.com/nginx-configuration-examples/
 ### Reference
 
 * https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/3/html/Security_Guide/index.html

@@ -2,7 +2,7 @@
 layout: post
 title:  "Books - Python Books List"
 date:   2016-11-17 12:47:21
-categories: General
+categories: List
 tags: books
 excerpt: Books - Python Books List
 ---

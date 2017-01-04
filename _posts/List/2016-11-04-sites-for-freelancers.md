@@ -2,7 +2,7 @@
 layout: post
 title:  "List of Freelancing Job/Task Websites"
 date:   2016-11-04 10:06:02
-categories: General
+categories: List
 tags: freelancer task job
 excerpt: List of Freelancing Job/Task Websites
 ---

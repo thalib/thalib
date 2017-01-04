@@ -2,7 +2,7 @@
 layout: post
 title:  "Books and Resource on Go Language Books List"
 date:   2016-11-19 12:47:21
-categories: General
+categories: List
 tags: books go
 excerpt: Books and Resource on Go Language Books List
 ---
