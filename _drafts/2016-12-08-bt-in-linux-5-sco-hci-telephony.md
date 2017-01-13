@@ -85,6 +85,7 @@ hcitool cc --role=s 00:1E:DE:21:D0:85
 ### Quick Connect
 
 ```
+
 echo 101 > /sys/class/gpio/export && \
 echo low > /sys/class/gpio/gpio101/direction && sleep 1 && \
 echo high > /sys/class/gpio/gpio101/direction
@@ -93,8 +94,21 @@ hciattach -t 30 -s 115200 /dev/ttymxc2 texas 3000000 flow &&  sleep 1 && \
 hciconfig hci0 up && sleep 1 && \
 bluetoothd -n -d &
 
-agent 0000 00:1E:DE:21:D0:85 && \
-hcitool cc --role=s 00:1E:DE:21:D0:85
+hcitool cmd 0x3f 0x106 3072 0x00 8000 0x0001 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00
+
+insmod snd-soc-bt-sco.ko && insmod snd-soc-imx-btlsr.ko
+
+agent 0000 00:1E:DE:21:D0:85 && hcitool cc --role=s 00:1E:DE:21:D0:85
+
+bluez4-scripts/test-telephony connect 00:1E:DE:21:D0:85
+bluez4-scripts/test-telephony play 00:1E:DE:21:D0:85
+
+
+arecord  -fS16_LE -t raw -Dhw:2,0  in.rec
+aplay -D hw:2,0 -f S16_LE -t raw in.rec
+cat /dev/urandom | aplay -f S16_LE -t raw -Dhw:2,0
+
+arecord -D hw:0,0 -c 2 -f S16_LE -r 8000 -t raw | aplay -D hw:0,0 -c 2 -f S16_LE  -r 8000
 ```
 
 
@@ -265,7 +279,10 @@ hcitool cmd 0x3f 0x106 3072 0x00 8000 0x0001 1 0x00 0x00 16 0x0001 1 16 0x0001 0
 ## Tests
 hcitool cmd 0x3f 0x106 512 0x00 8000 0x0032 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00
 
-enable loop back (0xFE28 0x01)
+## Alex command
+hcitool cmd 0x3f 0x106 0x0800 0x00 0x00001f40 0x0001 0x00 0x00 0x00 0x0010 0x0001 0x00 0x0010 0x0001 0x01 0x00 0x0010 0x0011 0x00 0x0010 0x0011 0x01 0x00
+
+## enable loop back (0xFE28 0x01)
 hcitool cmd 0x3f 0x228 0x01
 
 ## Driver
@@ -308,9 +325,10 @@ aplay -Dhw:2,0 /lib/firmware/bluez4-scripts/test.sbc
 arecord -Dhw:2,0 | aplay -Dhw:2,0
 
 arecord  -fS16_LE -t raw -Dhw:2,0  in.rec
+aplay -D hw:0,0 -c 2 -f S16_LE  in.rec
 cat /dev/urandom | aplay -f S16_LE -t raw -Dhw:2,0
 
-arecord -D hw:0,0 -c 2 -f S16_LE -r 8000 -t raw | aplay -D hw:0,0 -c 2 -f S16_LE  -r 8000 -v
+arecord -D hw:0,0 -c 2 -f S16_LE -r 8000 -t raw | aplay -D hw:0,0 -c 2 -f S16_LE  -r 8000
 
 https://en.wikibooks.org/wiki/Configuring_Sound_on_Linux/ALSA/Troubleshooting
 http://xmodulo.com/how-to-capture-microphone-input-to-wav-format-file.html
