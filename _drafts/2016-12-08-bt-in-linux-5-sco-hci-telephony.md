@@ -345,6 +345,13 @@ t_addr}
 
 cp imx6s-esomimx6-ldo.dtb /media/mmcblk1p1/imx6s-esomimx6-ldo.dtb
 
+### Scp files
+
+scp sound/soc/fsl/snd-soc-imx-btlsr.ko sound/soc/codecs/snd-soc-bt-sco.ko root@192.168.6.142:
+scp arch/arm/boot/dts/imx6micro-esomimx6-ldo.dtb root@192.168.6.142:/media/mmcblk0p1/
+scp arch/arm/boot/uImage root@192.168.6.142:/media/mmcblk0p1/
+
+
 ### Debuging
 https://e2e.ti.com/support/arm/sitara_arm/f/791/t/388471
 arecord: pcm_read:2039: read error: Input/output error
