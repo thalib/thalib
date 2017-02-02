@@ -123,7 +123,8 @@ killall -9 hciattach
 echo low > /sys/class/gpio/gpio101/direction && sleep 1 && \
 echo high > /sys/class/gpio/gpio101/direction && sleep 1 && \
 hciattach -t 30 -s 115200 /dev/ttymxc2 texas 3000000 flow &&  sleep 1 && \
-hciconfig hci0 up && sleep 1 && \
+hciconfig hci0 up && sleep 1
+
 bluetoothd -d -n &
 
 
