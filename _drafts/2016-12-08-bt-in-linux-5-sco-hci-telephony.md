@@ -91,7 +91,8 @@ echo low > /sys/class/gpio/gpio101/direction && sleep 1 && \
 echo high > /sys/class/gpio/gpio101/direction
 
 hciattach -t 30 -s 115200 /dev/ttymxc2 texas 3000000 flow &&  sleep 1 && \
-hciconfig hci0 up && sleep 1 && \
+hciconfig hci0 up && sleep 1
+
 bluetoothd -n -d &
 
 hcitool cmd 0x3f 0x106 3072 0x00 8000 0x0001 1 0x00 0x00 16 0x0001 1 16 0x0001 0 0x00 16 17 0x01 16 17 0x00 0x00

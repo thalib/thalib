@@ -9,7 +9,6 @@ title:  \"Wonderfull article (CHANGE ME)\"
 date:   $POST_DATE $POST_TIME
 categories: General
 tags:
-excerpt: This post is all about XYZ (CHANGE ME)
 ---
 
 
