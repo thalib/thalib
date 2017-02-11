@@ -106,3 +106,5 @@ Generally people don’t have these share certificates, however it is always rec
 * http://www.mca.gov.in/mcafoportal/login.do
 * http://yourfinancebook.com/post-incorporation-compliance-for-private-limited-companies-companies-act-2013/
 * https://www.indiafilings.com/learn/post-incorporation-compliances-company/
+* http://taxguru.in/company-law/annual-general-meeting-under-companies-act-2013.html
+* http://www.corporate-cases.com/2012/07/time-limit-for-holding-annual-general.html
