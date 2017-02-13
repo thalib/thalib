@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POST_PATH=/home/mohamed/project/vagrant/thalib.github.io/_drafts
+POST_PATH=$HOME/projects/dev/thalibin/thalib.github.io/_drafts
 POST_DATE=`date +%Y-%m-%d`
 POST_TIME=`date +%H:%M:%S`
 POST_TITLE="---
@@ -24,7 +24,7 @@ function post-cd() {
 	cd $POST_PATH
 }
 
-function post-clean() {
+function clean-tilda() {
 	find . -iname "*~" -print | xargs rm -vf
 }
 
