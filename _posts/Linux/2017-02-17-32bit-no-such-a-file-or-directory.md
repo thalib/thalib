@@ -38,7 +38,7 @@ $ uname -a
 Linux onion 3.16.0-4-amd64 #1 SMP Debian 3.16.39-1 (2016-12-30) x86_64 GNU/Linux
 ```
 
-From my experince of toolchain building task earlier, I knew this was due to [Multilib](https://www.google.co.in/?q=multilib). I need to install Multilib package to support executing of 32bit binaries.
+From my experience of toolchain building task earlier, I knew this was due to [Multilib](https://www.google.co.in/?q=multilib). I need to install Multilib package to support executing of 32bit binaries.
 
 ### Solution
 
@@ -72,10 +72,10 @@ compilation terminated.
 
 ### Additional steps
 
-Since I am compiling Linux kernel for ARM MCU, I was in need of these additional packages installed.
+Since I am compiling Linux kernel for ARM MPU, I was in need of these additional packages installed.
 
 * u-boot-tools - for mkimage tool
-* lzop for comperssion
+* lzop for compression
 
 ```
 sudo apt-get install u-boot-tools lzop
