@@ -164,3 +164,5 @@ The govt said, the new notes will abolish the black curreny, but the reality is 
 * [Lack of preparedness by govt led to cash crisis, admits Subramanian Swamy](http://indianexpress.com/article/india/demonetisation-bjp-subramanian-swamy-cash-crunch-4433960/)
 * [Demonetisation as flawed as Indira's emergency move: P Chidambaram](http://www.business-standard.com/article/economy-policy/demonetisation-as-flawed-as-indira-gandhi-s-emergency-move-p-chidambaram-116122301264_1.html)
 * [90 per cent of scrapped notes back in system, no black money in the contry](http://economictimes.indiatimes.com/news/economy/90-per-cent-of-scrapped-notes-back-in-system-big-dividend-unlikely/articleshow/56211433.cms)
+
+> If the solution or the idea is right, it will go like a hot knife through butter. If the idea is not working, for example demonetisation, don’t blame execution. I think your idea itself is wrong -  Rajiv Bajaj (BAJAJ AUTO) Managing Director said at the annual Nasscom Leadership Forum, February 17, 2017
