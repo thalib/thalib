@@ -13,12 +13,11 @@ tags: case security law privacy plot
 
 Former ISRO scientist **S Nambi Narayanan** was instrumental in designing the system used in Chandrayaan, Mangalyaan and PSLV that launched 104 satellites in one go.
 
-> "There, they are using the same system that I worked upon and developed. But here, I am still fighting to get justice. I have wasted my 25 years,"
-> - Nambi Narayanan
+> "There, they are using the same system that I worked upon and developed. But here, I am still fighting to get justice. I have wasted my 25 years," - Nambi Narayanan
 
 Narayanan's career was ruined after the 1994 ISRO spying scandal made headlines.
 
-**[WHAT HAPPENED] :** On **October 20, 1994** Kerala police arrested Mariam Rasheeda — a Maldivian woman for overstaying in India, police later accused her of being involved in a sex-spy scandal.
+**[WHAT HAPPENED] :** On **October 20, 1994** Kerala police arrested Mariam Rasheeda - a Maldivian woman for overstaying in India, police later accused her of being involved in a sex-spy scandal.
 
 Following this events Kerala police arrested ISRO Scientist S Nambi Narayanan. It was alleged that Rasheeda was the intermediary between the organisation and two more women. She was accused of passing on ISRO’S cryogenic programme secrets to the women, who in turn supplied the same to Russia and Pakistan’s ISI.
 
