@@ -48,5 +48,7 @@ icon: bookmark
 * **Sam Walton: Made In America by Sam Walton, John Huey**
 * Buyology: How Everything We Believe About Why We Buy is Wrong by Martin Lindstrom
 * Web Desing Books List on [http://blog.lemonstand.com](http://blog.lemonstand.com/best-web-design-books/)
+* [Security Analysis](http://www.amazon.in/Security-Analysis-Foreword-Warren-Buffett/dp/0070140650?tag=googinhydr18418-21) by Benjamin Graham, David Dodd
+* [The Intelligent Investor](http://www.amazon.in/Intelligent-Investor-Revised-Definitive-Essentials/dp/0060555661/ref=pd_sim_14_2?_encoding=UTF8&psc=1&refRID=0MSQV0QN6DX74AWNFHB3) by Benjamin Graham
 
 {% include comments.html %}
