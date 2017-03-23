@@ -11,3 +11,5 @@ Here are the list of Resource for learning ITSec
 * http://www.opensecuritytraining.info
 * http://phrack.org
 * http://sectools.org/
+* http://www.darkreading.com/
+* https://www.metasploit.com/
