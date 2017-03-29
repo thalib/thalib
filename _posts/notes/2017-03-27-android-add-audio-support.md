@@ -204,8 +204,6 @@ device/fsl/sabreauto_6q/audio_policy.conf
 device/fsl/sabreauto_6sx/audio_policy.conf
 device/fsl/sabresd_6sx/audio_policy.conf
 device/fsl/sabresd_7d/audio_policy.conf
-device/econ/esomimx6q/audio_policy.conf
-device/econ/esomimx6micro/audio_policy.conf
 ```
 
 Default file work good for our case, So I didn't modify it.
