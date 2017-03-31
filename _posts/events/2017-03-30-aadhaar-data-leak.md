@@ -63,3 +63,18 @@ Congress created Aadhaar, BJP opposed it. But now BJP pushes it everywhere.
 Finance Minister Arun Jaitley  has admitted that Aadhaar was a **great initiative** of the [previous UPA government](http://tech.firstpost.com/news-analysis/finance-minister-admits-that-aadhaar-was-a-great-initiative-from-congress-lead-upa-government-369539.html)
 
 I suspect third country has its hand
+
+
+### Aadhar Access
+
+* http://bridge.aadhaarconnect.com/
+* http://bridge.aadhaarconnect.com/resources.html
+* https://authportal.uidai.gov.in/web/uidai/developer
+
+### Conclusion
+
+Since its inception, Aadhaar has been criticised as a project which violates privacy. India does not have a law on privacy. In fact, then chairman of UIDAI, Nandan Nilekani, wrote to the Prime Minister as early as in May 2010 suggesting that there was a need to have a [data protection and privacy law](http://www.thehindu.com/opinion/op-ed/is-aadhaar-a-breach-of-privacy/article17745615.ece).
+
+Now it will be very easy to put you behind the bars, with only meta data, like you made N number of call to this number without knowing the content, no one may care what you spoke over the call.
+
+It may be easy and convinent, but use Aadhar less as possible. Most of the time avoid it.
