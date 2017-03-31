@@ -8,6 +8,8 @@ tags: aadhaar, leak, privacy, security
 
 This may be the [first leak of Aadhaar information online](http://tech.firstpost.com/news-analysis/a-simple-google-search-delivers-databases-with-aadhaar-numbers-but-aadhaar-is-not-compromised-368561.html#NewNavTop), that make the privacy of many hang in the air. More and big should come in the upcoming time.
 
+Privacy is a fundamental human right, and has been declared so by the [United Nations](https://www.un.org/en/universal-declaration-human-rights/).
+
 ### Dhoni Aadhaar Data Leaked
 
 A twitter post popped up with [Dhoni's Aadhaar page screen shot](http://tech.firstpost.com/news-analysis/ms-dhonis-aadhaar-card-application-form-leaked-uidai-blacklists-agency-for-10-years-369182.html) and his photo of enrolling
@@ -62,7 +64,7 @@ Congress created Aadhaar, BJP opposed it. But now BJP pushes it everywhere.
 
 Finance Minister Arun Jaitley  has admitted that Aadhaar was a **great initiative** of the [previous UPA government](http://tech.firstpost.com/news-analysis/finance-minister-admits-that-aadhaar-was-a-great-initiative-from-congress-lead-upa-government-369539.html)
 
-I suspect third country has its hand
+I suspect third country has its hand, read [this article](https://medium.freecodecamp.com/how-to-set-up-a-vpn-in-5-minutes-for-free-and-why-you-urgently-need-one-d5cdba361907?r=e) you will get what I am thinking. Every where around the globle there are some who despritly need of our personal data, may be its India or US or else, the rule is same.
 
 
 ### Aadhar Access
@@ -77,4 +79,17 @@ Since its inception, Aadhaar has been criticised as a project which violates pri
 
 Now it will be very easy to put you behind the bars, with only meta data, like you made N number of call to this number without knowing the content, no one may care what you spoke over the call.
 
+> “The average busy professional in this country wakes up in the morning, goes to work, comes home, takes care of personal and family obligations, and then goes to sleep, unaware that he or she likely committed several federal crimes that day.” — Harvey Silverglate
+
 It may be easy and convinent, but use Aadhar less as possible. Most of the time avoid it.
+
+> hope for the best and prepare for the worst - British Prime Minister Benjamin Disraeli
+
+also he said
+
+> Despair is the conclusion of fools. — Benjamin Disraeli in 1883
+
+
+Finaly If are kind saying I don't care about privacy
+
+> “Arguing that you don’t care about the right to privacy because you have nothing to hide is no different than saying you don’t care about free speech because you have nothing to say.” — Edward Snowden
