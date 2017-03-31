@@ -43,7 +43,9 @@ The [Aadhaar databases are available on Google](http://tech.firstpost.com/news-a
 
 The first search will deliver databases with passport details from Google, and the second with databases which contain Aadhaar numbers.
 
-The personal data involved includes beneficiary name, address, gender, family details, Aadhaar number and bank details (account number, IFSC code).
+The personal data involved includes beneficiary name, address, gender, family details, Aadhaar number and bank details (account number, IFSC code), contact number, etc.
+
+More the data is linked to Aadhaar, more are the changes of exposure.
 
 One particular state government, that administers a national welfare scheme for minors, has published the names, addresses, genders, religion, caste and bank account details (account number and IFSC code) for hundreds of minors.
 
@@ -56,10 +58,8 @@ The most important leaks are [from Central and State Govt](https://thewire.in/11
 
 ### Someone else is pushing
 
-From the beginning, either Congress or BJP at the center I am suspect that some one is pushing this Aadhaar.
-
-When BJP was in opposition it opposed the Aadhaar, but now it pushes it everywhere.
+Congress created Aadhaar, BJP opposed it. But now BJP pushes it everywhere.
 
 Finance Minister Arun Jaitley  has admitted that Aadhaar was a **great initiative** of the [previous UPA government](http://tech.firstpost.com/news-analysis/finance-minister-admits-that-aadhaar-was-a-great-initiative-from-congress-lead-upa-government-369539.html)
 
-I suspect third country has its hand 
+I suspect third country has its hand
