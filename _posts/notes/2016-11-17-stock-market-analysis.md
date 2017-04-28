@@ -20,6 +20,7 @@ Tools and sotware for stock market analysis
 * [marketsmojo.com](http://www.marketsmojo.com)
 * [moneyworks4me.com](http://www.moneyworks4me.com)
 * [thefundoo.com](http://thefundoo.com)
+* [tradingview.com](https://in.tradingview.com)
 
 ### Libraires and APIs
 
