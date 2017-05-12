@@ -15,3 +15,7 @@ tags: finance
 
 http://www.firstpost.com/business/job-cuts-are-a-wider-problem-not-limited-to-infosys-techm-is-modi-govt-waking-up-to-challenge-3437524.html
 http://economictimes.indiatimes.com/news/industry/tech/ites/layoffs-in-it-companies-is-it-time-for-trade-unions-to-come-into-play/articleshow/58625194.cms
+
+http://indiatoday.intoday.in/technology/story/it-job-market-crashes-infosys-cognizant-and-others-reportedly-fire-thousands/1/952226.html
+
+http://www.moneycontrol.com/news/business/bangalore-techies-in-panic-mode-as-it-companies-shed-workforce-2277813.html
