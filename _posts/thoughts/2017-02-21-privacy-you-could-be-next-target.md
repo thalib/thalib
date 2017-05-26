@@ -34,3 +34,27 @@ However, a division bench reversed the order in March 2015, which Narayanan has 
 Today all the officers of Kerala police former **DGP Siby Mathews** and two retired Superintendents of Police, **K.K. Joshua and S. Vijayan** who illegaly setup the case are now retired and free, soon they we will be dead.
 
 But the 75-year-old Former ISRO scientist S Nambi Narayanan, is fighting a case  to get justice for fabricated spying case setup against him.
+
+### CASE 2: Sabarmati Express Blast [2000]
+
+On the eve of Independence Day the night of August 14, 2000 Sabarmati Express was on its way from Muzaffarpur to Ahmedabad. When the train reached Barabanki the blast occured in a general compartment, killing 9 passengers and many injured. As usual special teams where setup and started invetigation. 
+
+The police team arrested Abdul Mobeen was arrested in 2000 from Aligarh and Gulzar Ahmed Wani on July 30, 2001 from Delhi. 
+
+The police alleged they arrested the two with explosives and incriminating materials. In report alleged that the accused had hatched a conspiracy in May 2000 at Habib Hall, AMU, to carry out a blast in the Sabarmati Express on August 14, 2000. Charges were framed against him in July 2001.
+
+Folloing the that 11 cases were registered against Wani. Out of the 11 cases, he has been exonerated in 10 as he has either been acquitted or discharged by the court. In one case, Wani was convicted and sentenced to 10 years jail for carrying explosives to trigger a blast in Delhi. However, the Delhi High Court had suspended his sentence.
+
+At the time of arrest 
+- Gulzar Ahmed Wani (A native of Baramulla in Kashmir) was pursuing PhD in Arabic from Aligarh Muslim University.
+- Abdul Mobeen (resident of Sidharth Nagar, UP) was doing internship after Bachelor of Unani Medicine & Surgery from AMU. 
+
+Finaly On April 27, 2017 The Supreme Court had granted bail to Wani in April this year, observing that he has suffered incarceration for over **16 years** and has been acquitted in nine out of 11 cases.
+
+> the court noted that the investigating officer had failed to collect any evidence establishing criminal conspiracy against the accused. “The court also said that incarceration of the accused restrained their physical freedom, which damaged them economical and mentally
+
+> The court said that keeping in mind their qualifications, the state government should compensate both on the basis of average income of the people who have similar educational background. It also said the state government could claim the compensation from the concerned policemen if it finds it appropriate. Moreover, the state government was directed to take action against the policemen
+
+We will forget them and this case, but it will be individuals fight to re-establish thier life in this world.
+
+The question remain, what is the punishment for the police why set up fake charge againts them, what about those who plated the explosive in the train, the lost lifes, injuries, damges and so on.
