@@ -22,7 +22,6 @@ The **National Electric Mobility Mission Plan 2020** is one of the most importan
 
 As similar to IT Industry, there are many lame ducks here too. We will come to know
 
-
 As of date May 2017, [Mahindra & Mahindra Limited](http://www.google.com/finance?chdnp=1&chdd=1&chds=1&chdv=1&chvs=maximized&chdeh=0&chls=IntervalBasedLine&q=NSE:M&M&ntsp=0&ei=_X8qWfD1EsHquASczqDYDw) is the only vehicle maker that entered the electric vehicle market with the acquisition of Reva Electric Car Co. Ltd in 2010.
 
 ## Mahindra & Mahindra
