@@ -8,7 +8,9 @@ tags: stock, auto, study
 
 Today as on date Indian IT industry was at the edge of downfall, one of such outcome of it was the mass layoff and uncertian future with change in technology. IT Industry is not in this stage over night, the signs of the IT becomeing absolute is happening over the time, but the managment of the IT firms ignored them and stayed in thier comformt zone. Over time these tech gaints lame duck.
 
-Similar to the IT industry, Indian Auto Industry is on the line. The reason is Polution, all-electric vehicle, Tesla's Entry into India, etc.
+Similar to the IT industry, Indian Auto Industry is on the line. The reason is Polution, all-electric vehicle, Tesla's Entry into India, etc. But the biggest chanllenge is Autonomus Car, not just Indian but worlds major Auto Companies wont be in position to get to it. 
+
+We can easily compare it with Mobile phone, think of Nokia was the standard of mobile phone, but iPhone, Android changed the game. Todays Auto Gaints will meet the same fate, because its too late for them to react. 
 
 The important threat is Indian goverments plan/policy to put 6-7 million of hybrid and electric vehicles on roads by 2020 and all-electric vehicle market by 2030.
 
