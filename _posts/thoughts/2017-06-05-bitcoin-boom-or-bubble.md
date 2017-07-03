@@ -17,3 +17,7 @@ Cryptocurrencies like Bitcoin are valuation has skyrocketted just in few months,
 Because if nobody is using Bitcoin for transacation, then Cryptocurrencies are valued as worthless.
 
 Cryptocurrencies are yet to get main stream adoptation, like anyother technlogy it can take off or crash, for some time cryptocurrencies are not a viable option to invest. 
+
+**Do you know:** As per [Coinmarketcap.com](http://coinmarketcap.com/#INR) as on 23rd June 2017 there were 762 crypto Currencies -  
+
+Coinmarketcap.com - is a website that tracks cryptocurrencies
