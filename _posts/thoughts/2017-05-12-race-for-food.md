@@ -3,7 +3,9 @@ layout: post
 title:  "Race for food"
 date:   2017-05-12 11:43:42
 categories: Thoughts
-tags: food fishing
+tags:
+- food
+- fishing
 ---
 
 Humans are ready to take any risk for food, see this video on one mans search for the food for him and his family. Sam Niang, a Laotian fisherman, as he walks a high wire strung above the raging Mekong River rapids on an extraordinary commute to work.

@@ -1,9 +1,8 @@
 ---
-layout: post
 title:  "Why people prefer fake news to real news"
-date:   2017-04-25 07:27:58
-categories: thoughts
-tags: news
+date:   2017-04-25
+tags:
+- news
 ---
 
 **Why people prefer fake news to real news?**
